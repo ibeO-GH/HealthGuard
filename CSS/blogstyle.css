@@ -214,7 +214,7 @@
     }
     
       .container{
-        background-image:url('images/drug.jpeg');
+        background-image:url('/images/faqs&blog/drug.jpeg');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -227,7 +227,7 @@
     
       @media (max-width: 1023px) and (min-width: 768px ){
         .container{
-          background-image:url('images/drug.jpeg');
+          background-image:url('/images/faqs&blog/drug.jpeg');
           background-position:center;
           background-size: cover;
           background-repeat: no-repeat;
