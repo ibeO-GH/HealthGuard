@@ -675,6 +675,10 @@ a.login-btn:hover {
 
 /* Mobile View */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .page-header {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
   .nav-menu {
     flex-direction: column;
     align-items: flex-start;
