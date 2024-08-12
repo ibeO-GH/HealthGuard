@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "manrope" sans-serif;
+}
+nav {
+  background-color: #077def;
+  max-width: 100%;
+  height: 10vh;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 120vh;
+  width: 100%;
+  padding: 20px;
+  gap: 50px;
+}
+.drug-img1 {
+  background-color: #141bc199;
+  height: 650px;
+  width: auto;
+  border-radius: 10px;
+}
+.drug-img1 img {
+  width: 500px;
+  margin-top: 35%;
+  transform: rotate(270deg);
+}
+.discription-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.discription p:nth-child(1) {
+  font-weight: 800;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+.discription p:nth-child(2) {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.discription p:nth-child(3) {
+  line-height: 29px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+span {
+  text-decoration: underline;
+}
+.discription p:nth-child(4) {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mg-cover {
+  display: flex;
+  gap: 10px;
+}
+.mg-cover p:nth-child(1),
+.mg-cover p:nth-child(2) {
+  border: 2px solid #077def;
+  padding: 14px 17px 14px 17px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 400px;
+}
+.quantity {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 15px;
+}
+.qty {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.add {
+  display: flex;
+  border: 2px solid #077def;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+#plus,
+#number,
+#minus {
+  border-right: 1px solid #077def;
+  padding: 10px 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-btn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 30px;
+}
+.buy-btn button:nth-child(1) {
+  color: white;
+  background-color: #077def;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.buy-btn button:nth-child(2) {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #077def;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.color-blue {
+  color: #077def;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.color-red {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.search {
+  height: auto;
+  margin-top: 60px;
+}
+.search-content {
+  margin-left: 11%;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.search-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.search-img1 img {
+  width: auto;
+  height: auto;
+  border: 2.5rem solid #141bc199;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.drug-name1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+.drug-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+footer {
+  height: auto;
+  padding-bottom: 15px;
+  background-color: #077def;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 30px 0 40px 0;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer-logo p {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.footer-text {
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 1.1rem;
+  word-break: normal;
+  width: 300px;
+}
+.footer-content2 {
+  padding: 23px 0 0 0;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+.footer-icon {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.footer-content2 li {
+  list-style: none;
+}
+.footer-content2 li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 1.05rem;
+}
+.footer-content2 li a:hover {
+  text-decoration: underline;
+}
+.footer-sub {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-address input {
+  padding: 15px 65px 15px 15px;
+  outline: none;
+  border: none;
+}
+input[type="email"] {
+  font-size: 1.1rem;
+  color: #797676;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+}
+.footer-address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-address button {
+  background-color: #fff;
+  padding: 12px 22px;
+  border: none;
+  color: #077def;
+  font-size: 1.1rem;
+  margin-right: 120px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+@media (max-width: 835px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+  }
+  .drug-img1 {
+    height: 760px;
+  }
+  .drug-img1 img {
+    width: 600px;
+  }
+  .discription-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 30px;
+    /*width: auto;
+        padding: 20px ;*/
+  }
+  .discription p:nth-child(3) {
+    line-height: 39px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .search-content {
+    margin-left: 32%;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 35px;
+  }
+  .search-flex {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    gap: 20px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 30px 0 70px 0px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .footer-heading {
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: px;
+  }
+  .footer-text {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: rem;
+    letter-spacing: 1.3px;
+    word-break: normal;
+    width: 250px;
+  }
+  .footer-content2 li a:hover {
+    text-decoration: underline;
+  }
+  .footer-sub {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .footer-address {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .footer-address input {
+    padding: 15px 60px 15px 15px;
+    outline: none;
+    border: none;
+  }
+  input[type="email"] {
+    font-size: 1.1rem;
+    color: #797676;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+  }
+  .drug-img1 {
+    height: 550px;
+    width: 400px;
+  }
+  .drug-img1 img {
+    width: 430px;
+  }
+  .discription-content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px 11px;
+  }
+  .discription p:nth-child(3) {
+    line-height: 39px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .search-content {
+    margin-left: 32%;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 35px;
+  }
+  .search-flex {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    gap: 20px;
+  }
+
+  .search-img1 img {
+    width: 390px;
+    height: auto;
+    border: 3rem solid #141bc199;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0 30px 20px;
+    letter-spacing: 1px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .footer-heading {
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: px;
+  }
+  .footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: rem;
+    word-break: normal;
+    width: 250px;
+  }
+  .footer-content2 li a:hover {
+    text-decoration: underline;
+  }
+  .footer-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-address input {
+    padding: 15px 60px 15px 15px;
+    outline: none;
+    border: none;
+  }
+  input[type="email"] {
+    font-size: 1.1rem;
+    color: #797676;
+  }
+}
