@@ -1,0 +1,1298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 8px;
+}
+
+.logo h5 {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 600;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 45px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#search-drugs {
+    /* border: 1px solid green; */
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* color: rgb(208, 198, 198); */
+}
+
+.btn1 {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.top-search-bar {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+form {
+    border: 1px solid #1019eb;
+    width: 488px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.login-signup-btn {
+    padding: 10px 18px;
+    border: none;
+    background-color: rgb(208, 198, 198);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-user {
+    color: white;
+    padding: 0px 4px;
+    margin-right: 5px;
+    font-size: 21px;
+    /* border: 1px solid grey; */
+    border-radius: 91px;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 125, 239);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+  
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+  
+.navbar ul li {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+  
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all 0.9s ease;
+}
+  
+.navbar ul li a:hover {
+    transition: all 0.9s ease;
+    text-decoration: underline;
+}
+
+.menu-bar {
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    margin-left: 130px;
+    /* border: 1px solid black; */
+    width: 22px;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    background: url("/images/prdct-orderhistory-img/unsplash-h-f-2-z-fauk-e-80.png") no-repeat center center/cover;
+    height: 560px;
+    z-index: -1;
+    opacity: 0.9;
+    width: 100%;
+    /* border: 3px solid green; */
+}
+
+.hero-txt h1 {
+    color: rgb(7, 125, 239);
+    font-family: sans-serif;
+    font-size: 39.81px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.hero-txt p {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 19.2px;
+    line-height: 32px;
+}
+
+.shop-by-category h3, .care-for-chronic-conditions h3, .vaccines-and-speciality-medication h3, .mother-and-child-wellness h3, .healthcare-professionals-toolkit h3 {
+    /* border: 2px solid green; */
+    color: white;
+    background-color: rgb(7, 125, 239);
+    padding: 20px 44px;
+    font-family: sans-serif;
+}
+
+.category-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 8px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-img-txt {
+    /* border: 1px solid black; */
+    position: relative;
+    top: -4px;
+    width: 370px;
+    margin-top: 0;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: linear-gradient(270deg, rgba(140, 140, 163, 0.420273) 15.5%, rgba(202, 203, 236, 0.667575) 31%, rgba(121, 121, 141, 0.345) 65%, rgba(208, 209, 243, 0.69) 92.5%);
+}
+
+.box-img-txt h4 {
+    font-family: sans-serif;
+    font-size: 13.33px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.box-img-txt button {
+    padding: 3px 10px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(137, 141, 224, 1);
+    color: white;
+    margin-top: 10px;
+    /* line-height: 30px; */
+}
+
+.fa-chevron-right {
+    color: black;
+    background-color: white;
+    padding: 3px 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
+.box-title {
+    width: 370px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 19.2px;
+    padding: 20px 0px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.category-buttons button {
+    color: white;
+    background-color: rgb(7, 125, 239);
+    font-size: 1.1rem;
+    border: none;
+    padding: 20px 50px;
+    width: 375px;
+    margin: 30px 0px;
+}
+
+.fa-star {
+    color: rgb(7, 125, 239);
+    background: white;
+    font-size: 27px;
+    padding: 6px 5px;
+    border-radius: 19px;
+    margin-right: 10px;
+}
+
+.fa-arrow-up-from-bracket {
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.chronic-conditions-meds-box, .vaccines-and-speciality-meds-box, .mother-and-child-wellness-meds-box, .healthcare-professionals-toolkit-meds-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 24px;
+    flex-wrap: wrap;
+}
+
+.meds {
+    text-align: center;
+    /* border: 1px solid green; */
+    height: 396px;
+    width: 284px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.med-name {
+    color: rgb(98, 103, 214);
+    font-family: sans-serif;
+    font-size: 19.2px;
+    line-height: 32px;
+}
+
+.med-price {
+    font-family: sans-serif;
+    font-size: 19.2px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.med-button {
+    background-color: rgb(98, 103, 214);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 19.2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.budecan-img, .avamys-img {
+    margin-top: 5px;
+}
+
+.avaxim-img {
+    margin-top: 84px;
+}
+
+.cognizine-citicoline-img, .muscletech-img {
+    margin-top: 30px;
+}
+
+.super-collagen-img {
+    margin-top: 17px;
+}
+
+.ekopine-img {
+    margin-top: 100px;
+}
+
+.wellkid-baby-img {
+    margin-top: 26px;
+}
+
+.vitabiotics-pregnacare-img {
+    margin-top: 21px;
+}
+
+.wellwoman-img {
+    margin-top: 61px;
+}
+
+footer {
+    background-color: rgb(7, 125, 239);
+    padding: 10px 45px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footnote-links-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo-container h5 {
+    padding: 0px 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffff;
+}
+
+.footnote p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 204px;
+    height: 144px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px 0px; */
+    padding-top: 10px;
+    padding-right: 50px;
+    /* border: 1px solid green; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footnote-links-container h4 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footnote-links-container ul {
+    list-style: none;
+    margin-top: 13px;
+}
+
+.footnote-links-container a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.footnote-links-container a:hover {
+    text-decoration: underline;
+}
+
+.company-links, .products-links, .resources-links, .legal-links, .contact-links {
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+
+.fa-instagram, .fa-linkedin-in, .fa-whatsapp {
+    color: rgb(7, 125, 239);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 7px;
+    transition: all .5s ease;
+}
+
+.fa-facebook-f {
+    color: rgb(7, 125, 239);
+    background-color: #fff;
+    padding: 5px 7px;
+    border-radius: 15px;
+    margin-top: 7px;
+    transition: all .5s ease;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-whatsapp:hover {
+    transition: all .5s ease;
+    transform: translateY(-8px);
+}
+
+.subscription-section {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.input-email input {
+    width: 247px;
+    height: 44px;
+    outline: none;
+}
+
+.input-email button {
+    padding: 13px 31px;
+    color: rgb(16, 25, 235);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.input-email input {
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+
+/*800px*/
+@media only screen and (min-width: 800px) and (max-width: 802px) {
+    .contact-links {
+        position: relative;
+        top: 50%;
+        left: 700px;
+    }
+
+    .top-bar {
+        margin-left: -10px;
+        height: 5vh;
+    }
+    
+    form {
+        display: none;
+    }
+
+    .logo img {
+        height: 4vh;
+    }
+    
+    .logo h5 {
+        font-size: 19px;
+        /* display: none; */
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+
+    .login-signup-btn {
+        position: relative;
+        right: -30px;
+        /* margin-left: 4px; */
+    }
+    
+    .navbar {
+        padding: 18px 0px;
+    }
+
+    
+    .list {
+        position: absolute;
+        top: 44%;
+        right: -130%;
+        width: 414px;
+        line-height: 55px;
+        height: 460px;
+        background: rgb(7, 125, 239);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 20px;
+        transition: all .5s ease;
+    }
+
+    .list.open {
+        right: 0;
+    }
+
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+    footer {
+        height: 56vh;
+    }
+
+    .footnote-links-container{
+        /* border: 2px solid black; */
+        width: 790px;
+        margin-bottom: 15px;
+    }
+
+    .footnote {
+        position: relative;
+        left: -32px;
+        /* border: 2px solid black; */
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+ 
+    .products-links, .resources-links {
+        position: relative;
+        top: 8px;
+        margin-left: -20px;
+    }
+
+    .company-links {
+        position: relative;
+        top: 8px;
+        margin-left: -50px;
+    }
+
+    .legal-links {
+        position: relative;
+        top: 8px;
+        right: 20px;
+    }
+
+    .contact-links {
+        margin-right: 2040px;
+        margin-top: 20px;
+    }
+
+    .subscription-section {
+        position: relative;
+        left: -291px;
+        top: 0px;
+    }
+
+    .input-email button {
+        /* padding: 55px 25px; */
+        height: 42px;
+        position: relative;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*414px*/
+@media only screen and (min-width: 414px) and (max-width: 420px) {
+    .top-bar {
+        margin-left: -10px;
+        height: 2vh;
+    }
+    
+    form {
+        display: none;
+    }
+
+    .logo img {
+        height: 4vh;
+    }
+    
+    .logo h5 {
+        font-size: 14px;
+        display: none;
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+
+    .login-signup-btn {
+        width: 210px;
+        margin-left: 105px;
+    }
+    
+    .navbar {
+        padding: 18px 0px;
+    }
+
+    
+    .list {
+        position: absolute;
+        top: 44%;
+        right: -130%;
+        width: 414px;
+        line-height: 35px;
+        height: 314px;
+        background: rgb(7, 125, 239);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 20px;
+        transition: all .5s ease;
+        -webkit-transition:;
+        -moz-transition:;
+        -ms-transition:;
+        -o-transition:;
+}
+
+    .list.open {
+        right: 0;
+    }
+
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        /* margin-left: 370px; */
+    }
+
+    .hero-txt {
+        padding: 0px 10px;
+    }
+
+    footer {
+        height: 96vh;
+    }
+
+    .footnote-links-container{
+        /* border: 1px solid black; */
+        width: 125%;
+        margin-left: -40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footnote {
+        position: relative;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .resources-links {
+        margin-left: -10px;
+    }
+
+    .company-links {
+        /* border: 1px solid black; */
+        margin-left: 7px;
+        margin-top: -4px;
+    }
+
+    .contact-links {
+        position: relative;
+        left: -100px;
+    }
+
+    .subscription-section {
+        position: relative;
+        left: -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .input-email input{
+        margin-bottom: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*393 mobile width*/
+@media only screen and (min-width: 393px) and (max-width: 400px) {
+    .top-bar {
+        margin-left: -10px;
+        height: 5vh;
+    }
+    
+    form {
+        display: none;
+    }
+   
+    .logo img {
+        height: 4vh;
+        margin-left: -20px;
+    }
+    
+    .logo h5 {
+        font-size: 14px;
+        display: none;
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+    
+    .login-signup-btn {
+        width: 210px;
+        margin-left: 100px;
+    }
+
+    .navbar {
+        padding: 18px 0px;
+    }
+    
+    .list {
+            position: absolute;
+            top: 44%;
+            right: -130%;
+            width: 393px;
+            line-height: 35px;
+            height: 314px;
+            background: rgb(7, 125, 239);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px 20px;
+            transition: all .5s ease;
+}    
+    .list.open {
+        right: 0;
+    }    
+    
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        /* margin-left: 370px; */
+    }
+
+    .hero-txt {
+        padding: 0px 10px;
+    }
+
+    footer {
+        height: 106vh;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .footnote-links-container{
+        /* border: 1px solid black; */
+        width: 120%;
+        position: relative;
+        left: -30px;
+    }
+
+    .footnote {
+        position: relative;
+        left: -10px;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+    }
+
+    .resources-links {
+        margin-left: 20px;
+    }
+
+    .contact-links {
+        position: relative;
+        left: -97px;
+    }
+
+    .legal-links {
+        margin-left: 46px;
+    }
+
+    .subscription-section {
+        position: relative;
+        top: 4%;
+        left: -30px;
+    }
+
+    .input-email input {
+        margin-bottom: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*390 mobile width*/
+@media only screen and (min-width: 390px) and (max-width: 392px) {
+    .top-bar {
+        margin-left: -10px;
+        height: 5vh;
+    }
+    
+    form {
+        display: none;
+    }
+   
+    .logo img {
+        height: 4vh;
+        position: relative;
+        left: -20px;
+    }
+    
+    .logo h5 {
+        font-size: 14px;
+        display: none;
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+    
+    .login-signup-btn {
+        width: 210px;
+        margin-left: 86px;
+    }
+
+    .navbar {
+        padding: 18px 0px;
+    }
+    
+    .list {
+            position: absolute;
+            top: 44%;
+            right: -130%;
+            width: 390px;
+            line-height: 35px;
+            height: 314px;
+            background: rgb(7, 125, 239);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px 20px;
+            transition: all .5s ease;
+}    
+    .list.open {
+        right: 0;
+    }    
+    
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        /* margin-left: 370px; */
+    }
+
+    .hero-txt {
+        padding: 0px 10px;
+    }
+
+    footer {
+        height: 106vh;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .footnote-links-container{
+        /* border: 2px solid black; */
+        width: 125%;
+        margin-left: -40px;
+    }
+
+    .footnote {
+        position: relative;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        margin-left: -5px;
+    }
+
+    .footnote-links {
+        margin-left: 10px;
+    }
+
+    .resources-links {
+        margin-left: 6px;
+    }
+
+    .contact-links {
+        position: relative;
+        left: -90px;
+    }
+
+    .subscription-section {
+        position: relative;
+        top: 4%;
+        left: -24px;
+    }
+
+    .input-email input {
+        margin-bottom: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*360 mobile width*/
+@media only screen and (min-width: 360px) and (max-width: 365px) {
+    .top-bar {
+        margin-left: -10px;
+        height: 5vh;
+    }
+    
+    form {
+        display: none;
+    }
+   
+    .logo img {
+        height: 4vh;
+        margin-left: -25px;
+    }
+    
+    .logo h5 {
+        font-size: 14px;
+        display: none;
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+    
+    .login-signup-btn {
+        width: 210px;
+        margin-left: 80px;
+    }
+
+    .navbar {
+        padding: 18px 0px;
+    }
+    
+    .list {
+            position: absolute;
+            top: 44%;
+            right: -130%; /*0*/
+            width: 360px;
+            line-height: 35px;
+            height: 314px;
+            background: rgb(7, 125, 239);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px 20px;
+            transition: all .5s ease;
+}
+
+    .list.open {
+        right: 0;
+    }    
+    
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+    .hero-txt {
+        padding: 0px 10px;
+    }
+
+    footer {
+        height: 106vh;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .footnote-links-container{
+        /* border: 2px solid black; */
+        width: 128%;
+        position: relative;
+        left: -40px;
+    }
+
+    .footnote {
+        position: relative;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+    }
+
+    .footnote-links {
+        margin-left: 10px;
+    }
+
+    .products-links {
+        margin-left: 6px;
+    }
+
+    .resources-links {
+        margin-left: 22px;
+    }
+
+    .legal-links {
+        margin-left: 36px;
+    }
+
+    .contact-links {
+        position: relative;
+        left: -85px;
+    }
+
+    .subscription-section {
+        position: relative;
+        top: 4%;
+        left: -35px;
+    }
+
+    .input-email input {
+        margin-bottom: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*320px mobile width*/
+@media only screen and (min-width: 320px) and (max-width: 325px) {
+    .top-bar {
+        margin-left: -10px;
+        height: 10vh;
+    }
+    
+    form {
+        display: none;
+    }
+   
+    .logo img {
+        height: 6vh;
+        margin-left: -14px;
+    }
+    
+    .logo h5 {
+        font-size: 14px;
+        display: none;
+    }
+
+    .fa-user {
+        font-size: 13px;
+    }
+    
+    .login-signup-btn {
+        width: 205px;
+        margin-left: 32px;
+    }
+    
+    .navbar {
+        padding: 18px 0px;
+    }
+    
+    .list {
+            position: absolute;
+            top: 44%;
+            right: -130%; /*0*/
+            width: 320px;
+            line-height: 35px;
+            height: 314px;
+            background: rgb(7, 125, 239);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px 20px;
+            transition: all .5s ease;
+}    
+    .list.open {
+        right: 0;
+    }    
+    
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+    
+    .hero-txt h1, .hero-txt p {
+        padding: 0px 20px;
+    }
+
+    #vitabiotics {
+        height: 94vh;
+    }
+
+    #accuCheck {
+        height: 94vh;
+    }
+
+    #omron {
+        height: 94vh;
+    }
+
+    footer {
+        height: 174vh;
+    }
+    
+    .footnote-links-container{
+        /* border: 1px solid black; */
+        width: 125%;
+        position: relative;
+        left: -41px;
+    }
+
+    .footnote {
+        position: relative;
+        left: -18px;
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .products-links {
+        margin-left: 19px;
+    }
+
+    .legal-links {
+        margin-left: 39px;
+    }
+
+    .contact-links {
+        margin-left: -90px;
+    }
+    
+    .subscription-section {
+        /* border: 2px solid black; */
+        padding: 0px 0px;
+        width: 125%;
+        position: relative;
+        top: 2%;
+        left: -30px;
+    }
+    
+    .input-email input {
+        margin-bottom: 20px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1105px) {
+    .top-bar {
+        height: 7vh;
+    }
+    
+    .logo img {
+        margin-left: -20px;
+    }
+
+    form {
+        /* display: none; */
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .fa-user {
+        font-size: 17px;
+    }
+
+    .top-search-bar {
+        display: flex;
+        padding: 5px;
+    }
+
+    .fa-magnifying-glass {
+        margin-left: -30px;
+    }
+
+    .login-signup-btn {
+        position: relative;
+        left: 30px;
+        /* margin-left: 50px; */
+        /* width: 70px; */
+        font-weight: 5px;
+    }
+
+    .navbar {
+        padding: 18px 0px;
+    }
+
+    
+    .list {
+        position: absolute;
+        top: 44%;
+        right: -130%;
+        width: 414px;
+        line-height: 55px;
+        height: 460px;
+        background: rgb(7, 125, 239);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 20px;
+        transition: all .5s ease;
+    }
+
+    .list.open {
+        right: 0;
+    }
+
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+    .footnote-links-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footnote {
+        /* border: 2px solid black; */
+        position: relative;
+        left: -20px;
+    }
+
+    .company-links, .products-links, .resources-links, .legal-links {
+        margin-right: 9px;
+    }
+
+    .contact-links {
+        position: relative;
+        left: -313px;
+        /* top: 20px; */
+    }
+
+    .subscription-section {
+        margin-top: -10px;
+        margin-left: 320px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}

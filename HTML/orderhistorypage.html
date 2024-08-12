@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <link rel="stylesheet" href="/CSS/orderhistorypage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/prdct-orderhistory-img/logo/Frame 5.svg" alt="healthguard-logo">
+            <h5>HEALTHGUARD</h5>
+        </div>
+
+        <ul class="list">
+          <li><a href="">Profile <span></span></a></li>
+          <li><a href="">Order History</a></li>
+          <li><a href="">Medication Reminder</a></li>
+          <li><a href="">Payment History</a></li>
+          <li><a href="">Settings</a></li>
+        </ul>
+
+        <div class="menu-bar" id="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="order-history-hero">
+        <div class="order-history-content">
+            <div class="content-box">
+                <h1>Order History</h1>
+
+                <form>
+                    <div class="top-search-bar">
+                        <div>
+                            <input type="text" id="search-drugs" name="search-drugs" value="" placeholder="Search by drug name,ID or Date">
+                        </div>
+    
+                        <div>
+                            <button class="btn1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="order-tabs">
+                    <ul>
+                        <li id="all-tab">All</li>
+                        <li id="current-tab">Current</li>
+                        <li id="completed-tab">Completed</li>
+                    </ul>
+                </div>
+
+                <div class="order-tab-message">
+                    <h5>No order has been made yet</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/script/orderhistorypage.js"></script>
+</body>
+</html>
