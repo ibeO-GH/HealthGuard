@@ -221,7 +221,7 @@
     }
    
       .container1{
-        background-image:url('images/faq.jpeg');
+        background-image:url('/images/faqs&blog/faq.jpeg');
         background-position:center;
         background-size: cover;
         background-repeat: repeat;
