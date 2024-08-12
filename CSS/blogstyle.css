@@ -192,9 +192,13 @@
     .nav-links a {
       text-decoration:none;
       color: #ffffff;
-      font-size:1.5rem;
+      font-size:1.8rem;
     }
     
+  .nav-links.active {
+  color:#077DEF;
+  }
+  
     @media (max-width: 1023px) and (min-width: 768px ){
       .nav-links.active {
         display: flex;
@@ -208,7 +212,7 @@
         justify-content: flex-start;
     }
     }
-    
+
     .nav-links a:hover {
       text-decoration: underline;
     }
@@ -221,7 +225,9 @@
         height:100%;  
         display: flex;
         flex-direction:column;
-        justify-content:space-between;
+        justify-content:center;
+        align-content: center;
+        
         gap:5px;
       }
     
@@ -491,7 +497,7 @@
       }
        }
         .text2 p{
-        font-size:1rem;
+        font-size:1.3rem;
         line-height:1.5;
         text-align:left;
         }
@@ -577,7 +583,7 @@
             }
     
     .text3 p{
-    font-size:1rem;
+    font-size:1.3rem;
     text-align:left;
     line-height:1.5;
     }
@@ -662,7 +668,7 @@
        }
       
       .text4 p{
-      font-size:1rem;
+      font-size:1.3rem;
       text-align:left;
       line-height:1.5;
     }
@@ -741,7 +747,7 @@
      }
     
     .text5 p{
-     font-size:1rem;
+     font-size:1.3rem;
     text-align:left;
     }
     @media (max-width: 767px) and (min-width: 320px) {
@@ -821,7 +827,7 @@
      }
     
     .text6 p{
-    font-size:1.02rem;
+    font-size:1.3rem;
     text-align:left;
     line-height:1.5;
     }
@@ -879,7 +885,9 @@
       font-size:2.3rem ;
     }
     }
-    
+    .pagination a:hover{
+      color:#077DEF;
+    }
     .pagination a.active {
      color: rgb(7, 51, 197);
     }
@@ -937,7 +945,7 @@
       }
     }
     .image svg{
-      width: 100vw;
+      width: 20vw;
     }
     
     @media (max-width: 767px) and (min-width: 320px ) {
@@ -962,18 +970,6 @@
         padding:1rem;
         font-size:3rem;
         } 
-    }
-    .image svg{
-    width:20vw;
-    }
-    .image svg{
-      width: 100vw;
-    }
-    
-    @media (max-width: 767px) and (min-width: 320px ) {
-      .image svg{
-      width: 100vw;
-      }
     }
     
     .footer2{
@@ -1104,7 +1100,7 @@
       margin: 0;
       padding: 0.5rem;
       text-align:justify;
-      font-size:1.5rem;
+      font-size:1.6rem;
     }
     
     @media (max-width: 1023px) and (min-width: 768px ){

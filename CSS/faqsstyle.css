@@ -199,7 +199,7 @@
     .nav-links a {
       text-decoration:none;
       color: #ffffff;
-      font-size:1.6rem;
+      font-size:2rem;
     }
     
     @media (max-width: 1023px) and (min-width: 768px ) {
@@ -246,7 +246,7 @@ height:80vh;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
   }
 
 @media (max-width: 1023px) and (min-width: 768px) {
