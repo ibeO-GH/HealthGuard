@@ -93,9 +93,8 @@ a.login-btn {
   padding: 0.5rem 2rem;
 }
 a.login-btn:hover {
-  color: #0b11bc;
-  font-size: 1.95rem;
-  font-weight: 700;
+  color: #fff;
+  background: #1019eb;
   text-decoration: none;
 }
 
@@ -154,6 +153,11 @@ a.login-btn:hover {
   text-align: center;
   font-weight: 700;
   padding: 1rem 1.5rem;
+}
+
+.hero-link:hover {
+  color: #fff;
+  background: #1019eb;
 }
 
 .hero-image img {
@@ -240,6 +244,11 @@ a.login-btn:hover {
   border: 2px solid #1019eb;
   border-radius: 8px;
   padding: 1rem;
+}
+
+.service-link:hover {
+  color: #fff;
+  background: #1019eb;
 }
 /* Why HealthGuard Section*/
 .relevance {
@@ -380,6 +389,11 @@ a.login-btn:hover {
   width: 15rem;
   margin: 2rem auto;
 }
+
+.prof-text a:hover {
+  color: #fff;
+  background: #1019eb;
+}
 /* footer Section*/
 .page-footer {
   width: 100%;
@@ -492,11 +506,17 @@ a.login-btn:hover {
   padding: 1.2rem 3rem;
   color: #1019eb;
   font-size: 1.6rem;
+  text-transform: capitalize;
   font-weight: bold;
   border: none;
   outline: none;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.input-email button:hover {
+  color: #fff;
+  background: #1019eb;
 }
 
 /* Tablet View */
@@ -554,6 +574,7 @@ a.login-btn:hover {
     color: #fff;
     text-decoration: underline;
     text-transform: capitalize;
+    background-color: #077def;
   }
   .hero {
     display: flex;
@@ -725,6 +746,7 @@ a.login-btn:hover {
   a.login-btn:hover {
     color: #fff;
     text-decoration: underline;
+    background-color: #077def;
     text-transform: capitalize;
   }
   .nav-menu.active {
