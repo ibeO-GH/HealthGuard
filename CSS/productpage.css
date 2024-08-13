@@ -140,7 +140,7 @@ form {
     position: absolute;
     /* top: 0; */
     right: 0;
-    background: url("images/unsplash-h-f-2-z-fauk-e-80.png") no-repeat center center/cover;
+    background: url("/images/prdct-orderhistory-img/unsplash-h-f-2-z-fauk-e-80.png") no-repeat center center/cover;
     height: 560px;
     z-index: -1;
     opacity: 0.9;
@@ -638,7 +638,11 @@ footer {
         flex-direction: column;
         padding: 0px 20px;
         transition: all .5s ease;
-    }
+        -webkit-transition:;
+        -moz-transition:;
+        -ms-transition:;
+        -o-transition:;
+}
 
     .list.open {
         right: 0;
