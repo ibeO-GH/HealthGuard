@@ -132,7 +132,7 @@ form {
 
 .hero {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 560px;
     justify-content: center;
     align-items: center;
@@ -447,6 +447,10 @@ footer {
 .fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-whatsapp:hover {
     transition: all .5s ease;
     transform: translateY(-8px);
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
 }
 
 .subscription-section {
@@ -459,7 +463,7 @@ footer {
 
 .input-email {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* border: 1px solid black; */
 }
@@ -471,7 +475,7 @@ footer {
 }
 
 .input-email button {
-    padding: 13px 31px;
+    padding: 12px 31px;
     color: rgb(16, 25, 235);
     font-family: sans-serif;
     font-size: 16px;
@@ -625,7 +629,7 @@ footer {
     }
 }
 
-/*414px*/
+/*414px iphone11*/
 @media only screen and (min-width: 414px) and (max-width: 420px) {
     .top-bar {
         margin-left: -10px;
@@ -739,8 +743,22 @@ footer {
         height: 15vh;
     }
 
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: -20px;
+    }
+
     .input-email input{
         margin-bottom: 10px;
+    }
+
+    .input-email button {
+        margin-left: -95px;
     }
 
     body {
@@ -748,7 +766,7 @@ footer {
     }
 }
 
-/*393 mobile width*/
+/*393 mobile width xiaomi redmi note9 pro*/
 @media only screen and (min-width: 393px) and (max-width: 400px) {
     .top-bar {
         margin-left: -10px;
@@ -852,6 +870,20 @@ footer {
         position: relative;
         top: 4%;
         left: -30px;
+    }
+
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: -15px;
+    }
+
+    .input-email button {
+        margin-left: -95px;
     }
 
     .input-email input {
@@ -978,7 +1010,7 @@ footer {
     }
 }
 
-/*360 mobile width*/
+/*360 mobile width* samsung galaxy s10 */
 @media only screen and (min-width: 360px) and (max-width: 365px) {
     .top-bar {
         margin-left: -10px;
@@ -1089,6 +1121,20 @@ footer {
         position: relative;
         top: 4%;
         left: -35px;
+    }
+
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: 0px;
+    }
+
+    .input-email button {
+        margin-left: -95px;
     }
 
     .input-email input {
@@ -1218,9 +1264,23 @@ footer {
         top: 2%;
         left: -30px;
     }
+
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: -35px;
+    }
     
     .input-email input {
         margin-bottom: 20px;
+    }
+
+    .input-email button {
+        margin-left: -95px;
     }
 
     body {
@@ -1321,6 +1381,7 @@ footer {
         margin-top: -10px;
         margin-left: 320px;
     }
+
 
     body {
         overflow-x: hidden;
