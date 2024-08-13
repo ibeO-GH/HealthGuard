@@ -447,10 +447,6 @@ footer {
 .fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-whatsapp:hover {
     transition: all .5s ease;
     transform: translateY(-8px);
-    -webkit-transform: translateY(-8px);
-    -moz-transform: translateY(-8px);
-    -ms-transform: translateY(-8px);
-    -o-transform: translateY(-8px);
 }
 
 .subscription-section {
@@ -499,8 +495,7 @@ footer {
     font-size: 16px;
 }
 
-
-/*800px*/
+/*800px Galaxy tab s7*/
 @media only screen and (min-width: 800px) and (max-width: 802px) {
     .contact-links {
         position: relative;
@@ -610,11 +605,12 @@ footer {
     .contact-links {
         margin-right: 2040px;
         margin-top: 20px;
+        border: 1px solid black;
     }
 
     .subscription-section {
         position: relative;
-        left: -291px;
+        left: -271px;
         top: 0px;
     }
 
@@ -895,7 +891,7 @@ footer {
     }
 }
 
-/*390 mobile width*/
+/*390 mobile width iphone 12 pro*/
 @media only screen and (min-width: 390px) and (max-width: 392px) {
     .top-bar {
         margin-left: -10px;
@@ -992,13 +988,27 @@ footer {
 
     .contact-links {
         position: relative;
-        left: -90px;
+        left: -92px;
     }
 
     .subscription-section {
         position: relative;
         top: 4%;
         left: -24px;
+    }
+
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: -18px;
+    }
+
+    .input-email button {
+        margin-left: -95px;
     }
 
     .input-email input {
@@ -1146,7 +1156,7 @@ footer {
     }
 }
 
-/*320px mobile width*/
+/*320px mobile width iphone5*/
 @media only screen and (min-width: 320px) and (max-width: 325px) {
     .top-bar {
         margin-left: -10px;
@@ -1288,6 +1298,7 @@ footer {
     }
 }
 
+/* Galaxy fold2 */
 @media only screen and (min-width: 820px) and (max-width: 1105px) {
     .top-bar {
         height: 7vh;
@@ -1374,12 +1385,12 @@ footer {
     .contact-links {
         position: relative;
         left: -313px;
-        /* top: 20px; */
+        margin-top: 20px;
+        /* border: 1px solid black; */
     }
 
     .subscription-section {
-        margin-top: -10px;
-        margin-left: 320px;
+        margin-left: 360px;
     }
 
 
