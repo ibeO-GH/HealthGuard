@@ -94,7 +94,7 @@ nav {
 }
 .hero-section {
   position: relative;
-  background-image: url("/images/appointpage/Health-hero-img.png");
+  background-image: url("../imagess/appointpage/Health-hero-img.png");
   background-position: center;
   background-size: center;
   background-repeat: no-repeat;

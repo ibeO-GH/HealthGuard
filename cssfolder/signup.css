@@ -1,24 +1,25 @@
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
-    text-decoration: none;
-    background: none;
-    -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+  -webkit-font-smoothing: antialiased;
 }
 
-menu, ol, ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+menu,
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .html {
   font-size: 62.5%;
 }
 body {
-  background-color:#077def;
+  background-color: #077def;
 }
 /* sign-up page background */
 
@@ -38,16 +39,14 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
 
 .healthguard1 {
   color: #077def;
   text-align: left;
-  font-size:  1.4rem;
+  font-size: 1.4rem;
   line-height: 32px;
   font-weight: 800;
- 
 }
 
 .sign-up h1 {
@@ -70,12 +69,10 @@ body {
 
 .sign-up-form {
   padding-top: 20px;
-
 }
 
 .form-group {
   margin-bottom: 15px;
-  
 }
 
 .form-group label {
@@ -139,7 +136,7 @@ button[type="submit"]:hover,
 .google-btn {
   display: flex;
   justify-content: center;
-  border:1px solid #007bff;
+  border: 1px solid #007bff;
   padding: 10px;
   width: 100%;
 }
@@ -147,7 +144,6 @@ button[type="submit"]:hover,
 .google-logo-con {
   display: flex;
   align-items: center;
-  
 }
 .google-logo {
   width: 20px;
@@ -173,7 +169,6 @@ button[type="submit"]:hover,
 }
 
 @media (min-width: 768px) {
-
   .sign-up-form {
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +194,6 @@ button[type="submit"]:hover,
   button[type="submit"] {
     flex: 0 0 100%;
   }
-
 }
 
 @media (max-width: 500px) {
@@ -207,7 +201,7 @@ button[type="submit"]:hover,
     width: 50px;
   }
   .healthguard1 {
-    font-size:  1rem;
+    font-size: 1rem;
     font-weight: 800;
   }
 
@@ -217,6 +211,4 @@ button[type="submit"]:hover,
     font-weight: 600;
     margin-top: 20px;
   }
-  
-  
 }
