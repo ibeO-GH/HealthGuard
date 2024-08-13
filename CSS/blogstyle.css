@@ -215,6 +215,7 @@
 
     .nav-links a:hover {
       text-decoration: underline;
+    
     }
     
       .container{
@@ -422,6 +423,10 @@
         height: 3.5rem;
         cursor:pointer;
         font-weight:bold;
+    }
+    #read:hover{
+    color: #fff;
+    background: #1019eb;
     }
     
     @media (max-width: 767px) and (min-width: 320px) {
@@ -1084,8 +1089,8 @@
     }
     @media (max-width: 1023px) and (min-width: 767px) {
       .footer a{
-      margin-left:20px;
-      font-size:1rem ;
+      margin-left:10px;
+      font-size:1rem;
       }
       }
     
@@ -1129,16 +1134,16 @@
       margin-left:680px;
     
     }
-    @media (max-width: 1023px) and (min-width: 768px ){
+    @media (max-width: 1023px) and (min-width: 768px ) {
       .subscribe {
         padding-bottom:10px;
         text-align: right;
-        margin-left:330px;
+        margin-left:280px;
       }
     }
     @media (max-width: 767px) and (min-width: 320px ) {
     .subscribe{
-     padding-left:0px;
+     margin-left:10px;
      text-align:left;
     }
     }
@@ -1164,8 +1169,8 @@
     @media (max-width: 767px) and (min-width: 320px) {
     .subscribe input[type="email"] {
     font-size:2rem;
-    font-weight: bold;
-    margin-right:150px;
+    font-weight:bold;
+    margin-right:0px;
     }
     }
     #sub{
@@ -1178,4 +1183,7 @@
       border-radius:10px;
       cursor: pointer;
      }
-    
+    #sub:hover{
+      color: #fff;
+      background: #1019eb;
+    }

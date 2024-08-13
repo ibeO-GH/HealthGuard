@@ -797,7 +797,7 @@ margin-left:4rem;
     .subscribe {
       padding-bottom:10px;
       text-align: right;
-      margin-left:750px;
+      margin-left:680px;
     
     }
     @media (max-width: 1023px) and (min-width: 768px ){
@@ -809,7 +809,7 @@ margin-left:4rem;
     }
     @media (max-width: 767px) and (min-width: 320px ) {
     .subscribe{
-      margin-left:10px;
+      margin-left:0px;
       text-align: left;
     }
     }
@@ -835,17 +835,18 @@ margin-left:4rem;
     .subscribe input[type="email"] {
     font-size:2rem;
     font-weight: bold;
+    margin-right:0px;
     }
     }
+
     #sub{
       width:13rem;
       padding:1.5rem 2rem;
       border:none;
       border-radius:10px;
-      cursor: pointer;
-      border-radius:10px;
+      cursor:pointer;
       color:#1019eb;
-       font-weight: bold;
+       font-weight:bold;
        background-color: #ffffff;
      }
   
