@@ -1,0 +1,222 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.html {
+  font-size: 62.5%;
+}
+body {
+  background-color:#077def;
+}
+/* sign-up page background */
+
+.sign-up-container {
+  background: #ffffff;
+  border-radius: 20px;
+  min-height: 810px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+  font-family: "Manrope", sans-serif;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.healthguard1 {
+  color: #077def;
+  text-align: left;
+  font-size:  1.4rem;
+  line-height: 32px;
+  font-weight: 800;
+ 
+}
+
+.sign-up h1 {
+  color: #077def;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.sign-up p {
+  color: #000000;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.sign-up-form {
+  padding-top: 20px;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #545454;
+  font-size: 1;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"],
+.google-signup a {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+.google-signup:hover {
+  background-color: #0056b3;
+}
+
+.terms-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #545454;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.terms-text {
+  margin-left: 10px;
+}
+
+.terms-text {
+  width: 500px;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  border:1px solid #007bff;
+  padding: 10px;
+  width: 100%;
+}
+
+.google-logo-con {
+  display: flex;
+  align-items: center;
+  
+}
+.google-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.google-text {
+  text-align: center;
+  color: #555;
+  margin-left: 10px;
+}
+.google-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.google-text a:hover {
+  color: #077def;
+}
+
+.or {
+  margin: 22px 45%;
+}
+
+@media (min-width: 768px) {
+
+  .sign-up-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-group {
+    flex: 0 0 48%;
+  }
+
+  .form-group.full-width {
+    flex: 0 0 100%;
+  }
+
+  .form-group input[type="checkbox"] {
+    margin: 0;
+  }
+
+  .form-group label[for="terms"] {
+    display: inline;
+  }
+
+  button[type="submit"] {
+    flex: 0 0 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 50px;
+  }
+  .healthguard1 {
+    font-size:  1rem;
+    font-weight: 800;
+  }
+
+  .sign-up h1 {
+    font-size: 1.5rem;
+    line-height: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  
+}
