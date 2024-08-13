@@ -68,7 +68,7 @@ body {
 
 /* Hero section*/
 .hero-container {
-    background-image: url(./images/Hero-image.png);
+    background-image: url(/images/medreminderpage/Hero-image.png);
     min-width: 100vw;
     height: 500px; 
     background-position: cover;
