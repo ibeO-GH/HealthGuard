@@ -1,0 +1,92 @@
+/*1100px*/
+@media only screen and (min-width: 1095px) and (max-width: 1100px) {
+    .top-bar {
+        padding: 10px 29px;
+    }
+    
+    .top-bar h5 {
+        font-size: 16px;
+    }
+    
+    form {
+        width: 300px;
+    }
+    
+    #search-drugs {
+        font-size: 16px;
+    }
+    
+    .login-signup-btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .navbar ul li a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .menu-bar {
+        display: none;
+    }
+    
+    .shop-by-category h3, .care-for-chronic-conditions h3, .vaccines-and-speciality-medication h3, .mother-and-child-wellness h3, .healthcare-professionals-toolkit h3 {
+        padding: 20px 22px;
+        /* height: 50px; */
+    }
+    
+    footer {
+        padding: 20px 0px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+    
+    .footnote-links-container {
+        /*padding: 0px 17px 33px 17px;*/ /*trbl*/
+        padding: 0px 47px;
+        position: relative;
+        left: -30px;
+    }
+    
+    .logo-container img{
+        height: 47px;
+    }
+    
+    .logo-container h5{
+        font-size: 15px;
+        padding-left: 3px;
+    }
+    
+    .company-links, .products-links, .resources-links, .legal-links {
+        margin-right: 20px;
+    }
+    
+    .contact-links {
+        position: relative;
+        left: -301px;
+        top: 20px;
+        left: 10px;
+        margin-top: 20px;
+        /* border: 3px solid black; */
+    }
+    
+    /* .input-email {
+        display: flex;
+        align-items: center;
+    } */
+
+    .input-email {
+        display: flex;
+        flex-direction: column;
+        /* align-items: left; */
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        position: relative;
+        left: 0px;
+    }
+    
+    .input-email button {
+        padding: 10px 26px;
+        /* margin-left: 10px; */
+    }
+}
