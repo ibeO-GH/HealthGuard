@@ -17,7 +17,10 @@
     font-family: arial;
     font-size: 24px;
     font-weight: 600;
+    /* color: #1019eb; */
+    /* color: rgb(7, 125, 239); */
 }
+
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -213,6 +216,13 @@ form {
     color: white;
     margin-top: 10px;
     /* line-height: 30px; */
+    transition: all .8s ease;
+}
+
+.box-img-txt button:hover {
+    color: white;
+    background-color: #1019eb;
+    transition: all .8s ease;
 }
 
 .fa-chevron-right {
@@ -303,6 +313,13 @@ form {
     font-size: 19.2px;
     border-radius: 10px;
     margin-top: 10px;
+    transition: all .8s ease;
+}
+
+.med-button:hover {
+    color: white;
+    background-color: #1019eb;
+    transition: all .8s ease;
 }
 
 .budecan-img, .avamys-img {
@@ -435,7 +452,16 @@ footer {
 .subscription-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 40px;
+    /* border: 1px solid black; */
+}
+
+.input-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
 .input-email input {
@@ -454,6 +480,14 @@ footer {
     outline: none;
     background-color: #fff;
     border-radius: 10px;
+    margin: 0px 10px;
+    transition: all .8s ease;
+}
+
+.input-email button:hover {
+    color: white;
+    background-color: #1019eb;
+    transition: all .8s ease;
 }
 
 .input-email input {
@@ -638,10 +672,6 @@ footer {
         flex-direction: column;
         padding: 0px 20px;
         transition: all .5s ease;
-        -webkit-transition:;
-        -moz-transition:;
-        -ms-transition:;
-        -o-transition:;
 }
 
     .list.open {
