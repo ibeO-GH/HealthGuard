@@ -1298,8 +1298,8 @@ footer {
     }
 }
 
-/* Galaxy fold2 */
-@media only screen and (min-width: 820px) and (max-width: 1100px) {
+/*ipad air */ /* Galaxy fold2 */
+@media only screen and (min-width: 820px) and (max-width: 822px) {
     .top-bar {
         height: 7vh;
     }

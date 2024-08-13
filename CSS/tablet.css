@@ -1,5 +1,5 @@
 /*1100px*/
-@media only screen and (min-width: 1095px) and (max-width: 1100px) {
+@media only screen and (min-width: 820px) and (max-width: 1100px) {
     .top-bar {
         padding: 10px 29px;
     }
@@ -45,7 +45,7 @@
         /*padding: 0px 17px 33px 17px;*/ /*trbl*/
         padding: 0px 47px;
         position: relative;
-        left: -30px;
+        left: -10px;
     }
     
     .logo-container img{
@@ -63,26 +63,16 @@
     
     .contact-links {
         position: relative;
-        left: -301px;
+        left: -303px;
         top: 20px;
-        left: 10px;
+        /* left: 10px; */
         margin-top: 20px;
         /* border: 3px solid black; */
     }
     
-    /* .input-email {
-        display: flex;
-        align-items: center;
-    } */
-
     .input-email {
         display: flex;
-        flex-direction: column;
-        /* align-items: left; */
-        /* border: 1px solid black; */
-        /* justify-content: left; */
-        position: relative;
-        left: 0px;
+        align-items: center;
     }
     
     .input-email button {
