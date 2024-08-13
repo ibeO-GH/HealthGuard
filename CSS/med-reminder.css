@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+body {
+    font-family: "Manrope",  sans-serif;
+}
+
+.header {
+    min-height: 98px; 
+    min-width: 100vw;
+    margin: auto;
+    background: #077DEF;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+  
+.navbar ul {
+    list-style-type: none; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li {
+    margin-left: 25px;
+    font-size: 1.2rem;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-bar {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+}
+  
+
+/* Hero section*/
+.hero-container {
+    background-image: url(./images/Hero-image.png);
+    min-width: 100vw;
+    height: 500px; 
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.hero-text {
+    background-color: rgba(3, 2, 2, 0.973); 
+    color: #ffffff;
+    opacity: 0.7;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text1 h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    max-width: 600px;
+    text-align: center;
+
+}
+  
+.hero-text2 h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1019EB;
+}
+   
+/*medication reminder*/
+  
+.medication-rem-section {
+    min-width: 100vw;
+    height: 600px;
+    background-image: url(./images/medication-backgrd-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+  
+.medication-container {
+    max-width: 1000px;
+    height: 880px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 60px;
+    width: 100vw;
+    
+}
+    
+.medication-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+  
+.medication-form label {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #545454;
+}
+  
+.medication-form input[type="text"],
+.medication-form input[type="date"],
+.medication-form input[type="time"],
+.medication-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+  
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.input-pair {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.notification {
+    display: flex;
+    align-items: center;
+}
+  
+.notification label {
+    margin-right: 10px;
+}
+  
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.btn.save  {
+    background-color: #007bef;
+    color: white;
+}
+
+.btn.save a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.btn.add {
+    background-color: white;
+    border: 1px solid #007bef;
+    color: #007bef;
+}
+  
+.btn.add a {
+    color: #007bef;
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0px;
+    min-width: 100vw;
+    min-height: 146px;
+    padding: 20px 45px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100vw;
+}
+
+.footer-column-logo {
+    min-width: 250px;
+}
+
+.footer-column-logo p {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffff;
+    max-width: 204px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}   
+
+.footer-logo {
+    display: flex;
+    align-items: center; 
+}
+
+.footer-logo img {
+    width: 50px;
+}
+
+.footer-logo h3 {
+    font-size: 1rem;
+    color: #ffff;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.footer-links {
+    flex: 1;
+    margin-top: 5px;
+    max-width: 500px;
+    margin-bottom:20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;  
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* socails */
+
+.footer-links .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.fa-instagram, .fa-linkedin-in, .fa-whatsapp {
+    color: rgb(7, 125, 239);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.fa-facebook-f {
+    color: rgb(7, 125, 239);
+    background-color: #fff;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-top: 7px;
+    text-decoration: none;
+   
+}
+/* subscription */
+.subscription {
+   padding-left: 65%; 
+   margin-top: 20px;
+}
+
+.subscription input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 247px;
+    height: 44px;
+    outline: none;
+}
+
+.subscription button {
+    padding: 13px 31px;
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.subscription button:hover {
+    background-color: #0056b3; 
+    color: white;
+}
+
+
+@media only screen and (min-width: 768px) 
+and (max-width: 1024px) {
+    
+    .nav-logo img {
+        width: 60px;
+    }
+
+    .nav-menu {
+        background-color: #077DEF;
+        text-align: center;
+        margin-top: 10px;
+        transition: 0.3s;
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        flex-direction: column;
+        transition: 0.3s ;
+        top:80px;
+        z-index: 1; 
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    nav ul li {
+        width: 90vw;
+        margin: 10px 10px;
+        padding: 15px 30px;
+        font-size: 1rem;
+       
+    }
+    .menu-bar {
+        display: block; 
+        cursor: pointer;  
+        padding-left: 40%; 
+    }
+    /* hero section*/
+    .hero-container {
+        height: 400px;
+    }
+    .hero-text {
+        font-size: 1rem;
+        height: 400px;
+    }
+    /* medication reminder ection*/
+
+    .medication-form label {
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    
+    /* footer section */
+    footer {
+        background-color: #007bff;
+        color: white;
+        padding: 20px 0px;
+        min-width: 100vw;
+        min-height: 146px;
+        padding: 20px 30px;
+    }
+    .footer-column-logo {
+        min-width: 190px;
+    }
+
+    .footer-column-logo p {
+        font-size: 0.9rem;
+    }
+    
+    .footer-container {
+       max-width: 70vw; 
+       padding-left: 0px;
+       
+    }
+    .subscription {
+        padding-left: 0%; 
+    }
+   
+    .footer-links {
+        min-width: 100px;
+    }
+    .footer-links li a{
+        font-size: 0.9rem;
+    
+    }
+
+    .subscription {
+        padding-left: 50%;
+    }
+    .subscription input[type="email"] { 
+        width: 177px;
+        
+    }
+
+    .subscription button {
+        padding: 13px 13px;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width: 320px) {
+    .nav-logo p {
+        font-size: 1rem;
+    }
+    .nav-logo img {
+        width: 50px;
+    }
+    .nav-menu {
+        background-color: #077DEF;
+        text-align: center;
+        margin-top: 10px;
+        transition: 0.3s;
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        flex-direction: column;
+        transition: 0.3s ;
+        top:80px;
+        z-index: 1;
+       
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    nav ul li {
+        width: 90vw;
+        margin: 10px 10px;
+        padding: 15px 30px;
+        font-size: 1rem;
+       
+    }
+    .menu-bar {
+        display: block; 
+        cursor: pointer;   
+    }
+    .hero-container {
+        height: 300px;
+    }
+    .hero-text {
+        height: 300px;
+        font-size: 0.65rem;
+    }
+    .hero-text h1 {
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    .hero-text2 h3 {
+        font-size: 1rem;
+    }
+    .medication-rem-section {
+        height: 550px;
+    }
+    .medication-container {
+        margin: 0 auto;
+        padding:  20px;
+    }
+    .medication-form label {
+        font-size: 1rem;
+    }
+    
+    /*footer section */
+   
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+    .footer-column-logo {
+        margin: 5px 0;  
+    }
+    .footer-column-logo p {
+        max-width: 500px;
+        font-size: 1rem;
+    }
+    .footer-logo {
+        display: flex;
+    }
+    .footer-links {
+        max-width: 500px;
+        margin-bottom: 15px;
+    }
+   
+    .subscription {
+        padding-left: 1px;
+    }
+    
+    .subscription input[type="email"] { 
+        width: 177px;  
+    }
+
+    .subscription button {
+        padding: 13px 13px;
+    }
+    
+     
+}

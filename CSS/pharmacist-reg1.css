@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #077def;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    min-height: 1000px;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #077def;
+    padding-top: 50px;
+}
+
+.logo img {
+    width: 70px;
+    height: 45px;
+}
+
+.headnote p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.headnote h2 {
+    text-align: center;
+}
+/* Registration button */
+.reg-btn {
+    margin-top: 100px;
+    padding-left:72px;
+}
+/* pharmacist button */
+.pharmacist-btn {
+    background-color: #077def;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.pharmacist-btn a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.pharmacist-btn:hover {
+    background-color: #0056b3;
+}
+/* pharmacy button */
+.pharmacy-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.pharmacy-btn a {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.pharmacy-btn a:hover {
+    color:#077def;
+}
+
+/* Personal Information*/
+.info {
+    margin-top: 50px;
+    padding-left: 72px;
+}
+.info p {
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid #ccc;
+    max-width: 44%;
+}
+
+/* form section */
+
+.pharmacist-form {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 72px;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+    flex: 0 0 48%;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #7a7979;
+    font-size: 1.1rem;
+}
+  
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group input[type="tel"],
+#gender {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.next-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 500px) {
+
+    .logo img {
+        width: 50px;
+    }
+    .healthguard1 {
+        font-size:  1rem;
+        font-weight: 800;
+    }
+
+    /* headnote */
+    .headnote p {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 24px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .headnote h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+    /* registration button */
+    .reg-btn {
+        margin-top: 50px;
+        padding-left:20px;
+    }
+    /* pharmacist button */
+    .pharmacist-btn {
+        padding: 11px;
+        border-radius: 10px;
+        max-width: 40%;
+    }
+    .pharmacist-btn a {
+        font-size: 0.9rem;
+    }
+    /* pharmacy button */
+    .pharmacy-btn {
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10%;
+        max-width: 40%;
+    }
+    
+    .pharmacy-btn a {
+        font-size: 1rem;
+    }
+    .pharmacy-btn a:hover {
+        color:#077def;
+    }
+
+    /*form section */
+    .pharmacist-form {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px; 
+    }
+
+    /* Personal Information*/
+    .info {
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+    .info p {
+        max-width: 88vw;
+    }
+
+    .form-group {
+        flex: 0 0 100%;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"],
+    .form-group input[type="email"],
+    .form-group input[type="date"],
+    .form-group input[type="number"],
+    .form-group input[type="tel"],
+    #gender {
+        max-width: 100%;
+        padding: 12px 16px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 1rem;
+    }
+
+    
+}
+

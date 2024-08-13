@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthGuard</title>
+    <link rel="shortcut icon" href="/images/healthguard-logo.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="/med-reminder.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope?query=manrope">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+   
+    
+</head>
+<body>
+
+    <!-- Navigation section-->
+    <div class="header">
+        <div class="nav-logo">
+            <img src="/images/healthguard-logo.svg" alt="logo">
+            <p> HEALTHGUARD</p>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li> <a href="#" class="nav-link">  Profile </a></li>
+                <li> <a href="#" class="nav-link">  Order History </a></li>
+                <li> <a href="#" class="nav-link"> Medication Reminder </a></li>
+                <li> <a href="#" class="nav-link"> Payment History </a></li>
+                <li> <a href="#" class="nav-link"> Settings </a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bar"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+
+    <!-- Hero section-->
+    <div class="hero-container">
+           
+        <div class="hero-text">
+            <div class="hero-text1"> <h1>Set up a reminder for your Medications so as to ensure you never miss a dose. </h1> </div>
+            <div class="hero-text2"> <h3>Our System allows you to schedule reminders via alarm. </h3> </div>
+        </div>
+           
+    </div>
+
+    <!-- Medication Reminder Form-->
+  
+  
+    <div class="medication-rem-section">
+
+        <div class="medication-container">
+
+            <form class="medication-form">
+                <label for="medication-name">Medication Name</label>
+                <input type="text" id="medication-name" name="medication-name">
+
+                <div class="form-group">
+                    <div class="input-pair">
+                        <label for="dose">Dose</label>
+                        <input type="text" id="dose" name="dose" placeholder="2.00">
+                    </div>
+    
+                    <div class="input-pair">
+    
+                        <label for="view">View</label>
+            
+                        <select id="view" name="view">
+            
+                          <option>Tablet</option>
+                          <option>Capsule</option>
+                          <option>Liquid</option>
+            
+                        </select>
+                    </div>
+        
+                </div>
+    
+                <div class="form-group">
+    
+                    <div class="input-pair">
+                        <label for="how-to-use">How to use</label>
+                        <select id="how-to-use" name="how-to-use">
+                            <option> Before eating </option>
+                            <option> After eating </option>
+                        </select>
+                    </div>
+            
+                    <div class="input-pair">
+                        <label for="fixed-time">Fixed time</label>
+                        <input type="time" id="fixed-time" name="fixed-time" placeholder="Fixed time">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+    
+                    <div class="input-pair">
+                        <label for="begin">Begin</label>
+                        <input type="date" id="begin" name="begin">
+                    </div>
+    
+                    <div class="input-pair">
+                        <label for="end">End</label>
+                        <input type="date" id="end" name="end">
+                    </div>
+                </div>
+    
+                <div class="form-group notification">
+                    <label for="notification">Notification</label>
+                    <input type="checkbox" id="notification" name="notification">
+                </div>
+    
+                <div class="form-actions">
+                    <button type="submit" class="btn save"> <a href="#"> Save Changes</a></button>
+                    <button type="button" class="btn add"> <a href="#"> Add New Reminder</a></button>
+                </div>
+                
+            </form>
+
+           
+
+        </div>
+    </div>
+
+    <!--footeer section-->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column-logo">
+                <div class="footer-logo">
+                    <img src="/images/healthguard-logo.svg" alt="healthguard Logo">
+                    <h3> HEALTHGUARD</h3> 
+                </div>
+                <p>We offer comprehensive details about each medication, including its uses, dosage instructions, potential side effects, and interactions.</p>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">For Business</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Our Offerings</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:info@healthguard.com">info@healthguard.com</a></li>
+                        <li> <a href="#"> Phone: +2348160000000 </a></li>
+                    </ul>
+                <div class="social-icons">
+                    
+                    <a href="#"> <i class="fa-brands fa-facebook-f"></i></a> 
+                    <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#">  <i class="fa-brands fa-linkedin-in"></i>  </a>
+                    <a href="#">  <i class="fa-brands fa-whatsapp"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="subscription">
+            <input type="email" placeholder="Email address">
+            <button type="submit"> <p> Subscribe </p>  </button>
+        </div>
+
+    </footer>
+    <script src="/Script/med-reminder.js"> </script>
+</body>
+</html>
