@@ -190,11 +190,26 @@ button[type="submit"] {
   font-weight: 600;
   cursor: pointer;
 }
-
+/*
 button[type="submit"]:hover {
-  background-color: #0056b3;
-}
+  background-color: #1019eb;
+}*/
 
+.submit-btn a {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 48%;
+  padding: 7.5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+/*
 button[type="reset"] {
   background-color: #fff;
   border: 1px solid #6e6d6d;
@@ -209,7 +224,7 @@ button[type="reset"] {
 
 button[type="reset"]:hover {
   color: #0056b3;
-}
+}*/
 
 @media (max-width: 500px) {
   .container {
