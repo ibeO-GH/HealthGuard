@@ -104,7 +104,7 @@ body {
 .medication-rem-section {
   min-width: 100vw;
   height: 600px;
-  background-image: url("../imagess/medication-backgrd-img.png");
+  background-image: url("../imagess/medreminderpage/medication-backgrd-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
