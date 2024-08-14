@@ -1,5 +1,5 @@
-/*1100px*/
-@media only screen and (min-width: 820px) and (max-width: 1100px) {
+/*1100px*/ /* Galaxy fold2 */
+@media only screen and (min-width: 830px) and (max-width: 1100px) {
     .top-bar {
         padding: 10px 29px;
     }
@@ -42,10 +42,12 @@
     }
     
     .footnote-links-container {
-        /*padding: 0px 17px 33px 17px;*/ /*trbl*/
-        padding: 0px 47px;
+        padding: 0px 17px 33px 17px; /*trbl*/
+        /* padding: 0px 47px; */
         position: relative;
         left: -10px;
+        /* border: 1px solid black; */
+        width: 100%;
     }
     
     .logo-container img{
@@ -62,21 +64,27 @@
     }
     
     .contact-links {
-        position: relative;
+        /* position: relative; */
         left: -303px;
         top: 20px;
         /* left: 10px; */
-        margin-top: 20px;
+        /* margin-top: 20px; */
         /* border: 3px solid black; */
     }
     
     .input-email {
         display: flex;
         align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .subscription-section {
+        /* border: 1px solid black; */
+        margin-right: -23px;
     }
     
     .input-email button {
-        padding: 10px 26px;
-        /* margin-left: 10px; */
+        /* padding: 12px 26px; */
+        margin-left: 10px;
     }
 }

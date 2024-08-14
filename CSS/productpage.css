@@ -1298,7 +1298,7 @@ footer {
     }
 }
 
-/*ipad air */ /* Galaxy fold2 */
+/*ipad air */
 @media only screen and (min-width: 820px) and (max-width: 822px) {
     .top-bar {
         height: 7vh;
@@ -1338,7 +1338,6 @@ footer {
     .navbar {
         padding: 18px 0px;
     }
-
     
     .list {
         position: absolute;
