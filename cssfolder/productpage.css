@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "manrope", sans-serif;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -319,6 +323,11 @@ form {
   margin-top: 10px;
 }
 
+.med-button:hover {
+  color: #fff;
+  background: #1019eb;
+}
+
 .budecan-img,
 .avamys-img {
   margin-top: 5px;
@@ -479,6 +488,11 @@ footer {
   outline: none;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.input-email button:hover {
+  color: #fff;
+  background: #1019eb;
 }
 
 .input-email input {

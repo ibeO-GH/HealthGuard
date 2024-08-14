@@ -212,7 +212,8 @@ nav {
   transition: all 0.5s ease;
 }
 .appoitment-button button:hover {
-  background-color: #022b52;
+  color: #fff;
+  background: #1019eb;
 }
 .specialist {
   height: auto;
@@ -285,7 +286,8 @@ nav {
 }
 .specialist-btn a:nth-child(1):hover,
 .specialist-btn a:nth-child(2):hover {
-  background-color: #022b52;
+  color: #fff;
+  background: #1019eb;
   transform: scale(1.05);
 }
 
@@ -378,6 +380,11 @@ input[type="email"] {
   margin-right: 120px;
   font-weight: bold;
   border-radius: 10px;
+}
+
+.footer-address button:hover {
+  color: #fff;
+  background: #1019eb;
 }
 
 @media (max-width: 835px) {

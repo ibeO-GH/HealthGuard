@@ -423,6 +423,11 @@ input[type="text"] {
   font-weight: bold;
 }
 
+#read:hover {
+  color: #fff;
+  background: #1019eb;
+}
+
 @media (max-width: 767px) and (min-width: 320px) {
   #read {
     margin-bottom: 50px;
@@ -1170,4 +1175,9 @@ h4 {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#sub:hover {
+  color: #fff;
+  background: #1019eb;
 }

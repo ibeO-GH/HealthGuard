@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "manrope", sans-serif;
 }
 html {
   font-size: 62.5%;
@@ -837,4 +837,9 @@ h4 {
   color: #1019eb;
   font-weight: bold;
   background-color: #ffffff;
+}
+
+#sub:hover {
+  color: #fff;
+  background: #1019eb;
 }
