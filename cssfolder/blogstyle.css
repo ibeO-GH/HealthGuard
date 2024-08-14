@@ -232,7 +232,7 @@ header {
 
 @media (max-width: 1023px) and (min-width: 768px) {
   .container {
-    background-image: url("/images/faqs&blog/drug.jpeg");
+    background-image: url("../imagess/faqs&blog/drug.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
