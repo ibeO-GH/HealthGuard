@@ -190,7 +190,7 @@ a.login-btn:hover {
 }
 
 .aboutus-text h2 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #077def;
   text-transform: capitalize;
@@ -235,7 +235,7 @@ a.login-btn:hover {
 
 .fa-diamond,
 .fa-minus {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #077def;
 }
 
@@ -300,13 +300,26 @@ a.login-btn:hover {
 .contactus-heading h2 {
   color: #077def;
   text-transform: capitalize;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
 .contactus-heading p {
   margin-top: 2rem;
   font-size: 2rem;
+}
+
+.line-rule {
+  height: 0.2rem;
+  width: 16rem;
+  background: #077def;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.fa-circle {
+  font-size: 1rem;
+  color: #077def;
 }
 
 .contact-content {
@@ -343,13 +356,6 @@ a.login-btn:hover {
   border-radius: 50%;
 }
 
-.review-h3text {
-  margin: 2rem 4rem;
-  width: 40rem;
-  font-size: 2.5rem;
-  font-weight: 800;
-}
-
 .contact-p {
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
@@ -369,6 +375,10 @@ a.login-btn:hover {
   padding: 0.7rem 1.5rem;
 }
 
+.chat-details a:hover {
+  color: #fff;
+  background-color: #1019eb;
+}
 /* footer Section*/
 .page-footer {
   width: 100%;
