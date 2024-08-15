@@ -16,6 +16,16 @@ body {
   margin: 50px auto;
   border-radius: 10px;
 }
+.back {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+.back a  {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
 
 .logo {
   display: flex;
@@ -24,7 +34,6 @@ body {
   align-items: center;
   font-size: 1.4rem;
   color: #077def;
-  padding-top: 50px;
 }
 
 .logo img {
@@ -182,26 +191,25 @@ body {
   }
   /* pharmacist button */
   .pharmacist-btn {
-    padding: 11px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 40%;
+    max-width: 30%;
   }
   .pharmacist-btn a {
     font-size: 0.9rem;
   }
+
   /* pharmacy button */
   .pharmacy-btn {
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 10%;
-    max-width: 40%;
+    margin-left: 0%;
   }
 
   .pharmacy-btn a {
+    padding: 11px;
     font-size: 1rem;
   }
   .pharmacy-btn a:hover {
-    color: #077def;
+    color: #fff;
   }
 
   /*form section */

@@ -34,12 +34,19 @@ body {
   padding: 50px;
   font-family: "Manrope", sans-serif;
 }
-.logo-container {
+
+.logo-container a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 
 .healthguard1 {
   color: #077def;

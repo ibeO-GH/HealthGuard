@@ -48,7 +48,7 @@ body {
   color: #fff;
 }
 .navbar ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
 }
 
 .menu-bar {
@@ -187,11 +187,15 @@ body {
   background-color: #007bef;
   color: white;
 }
+.btn.save:hover{
+  background-color: #1019eb;
+}
 
 .btn.save a {
   color: #fff;
   text-decoration: none;
 }
+
 
 .btn.add {
   background-color: white;
@@ -202,6 +206,12 @@ body {
 .btn.add a {
   color: #007bef;
   text-decoration: none;
+}
+.btn.add:hover {
+  background-color: #1019eb;
+}
+.btn.add a:hover {
+  color: #fff;
 }
 
 /*footer*/
