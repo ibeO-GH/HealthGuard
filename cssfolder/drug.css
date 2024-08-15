@@ -10,7 +10,28 @@ nav {
   background-color: #077def;
   max-width: 100%;
   height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+nav button {
+  padding: 7px 25px;
+  border: none;
+  font-size: 1rem;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #077def;
+}
+nav button a {
+  text-decoration: none;
+  color: #077def;
+}
+nav button:hover {
+  background-color: wheat;
+  color: white;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
