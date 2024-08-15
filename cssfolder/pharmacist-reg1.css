@@ -61,7 +61,7 @@ body {
   text-decoration: none;
 }
 .pharmacist-btn:hover {
-  background-color: #0056b3;
+  background-color: #1019eb;
 }
 /* pharmacy button */
 .pharmacy-btn {
@@ -70,15 +70,20 @@ body {
   padding: 15px;
   border-radius: 10px;
   margin-left: 100px;
+  border: none;
 }
 
 .pharmacy-btn a {
-  color: #000;
+  color: #7a7979;
   font-size: 1rem;
+  padding: 15px 20px;
+  border-radius: 10px;
   text-decoration: none;
+  border: 1px solid #7a7979;
 }
 .pharmacy-btn a:hover {
-  color: #077def;
+  background-color: #1019eb;
+  color: #fff;
 }
 
 /* Personal Information*/
@@ -146,7 +151,7 @@ body {
   text-decoration: none;
 }
 .next-btn:hover {
-  background-color: #0056b3;
+  background-color: #1019eb;
 }
 
 @media (max-width: 500px) {
