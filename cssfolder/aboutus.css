@@ -224,6 +224,7 @@ a.login-btn:hover {
   font-size: 2.8rem;
   font-weight: 800;
   margin-bottom: 1rem;
+  color: #077def;
   text-transform: uppercase;
 }
 
@@ -233,12 +234,10 @@ a.login-btn:hover {
   text-align: center;
 }
 
-.fa-diamond {
-  font-size: 2rem;
-}
-
+.fa-diamond,
 .fa-minus {
   font-size: 2rem;
+  color: #077def;
 }
 
 /* our vision section */
@@ -279,6 +278,7 @@ a.login-btn:hover {
   font-size: 2.8rem;
   font-weight: 800;
   text-transform: uppercase;
+  color: #077def;
 }
 
 .ourvision-text p {
