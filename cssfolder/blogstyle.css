@@ -848,6 +848,7 @@ input[type="text"] {
   display: inline-block;
   text-align: center;
   margin-left: 390px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   .pagination {
@@ -898,11 +899,12 @@ input[type="text"] {
 .footer {
   background-color: #077def;
   color: #fff;
-  height: 90vh;
+  height:75vh;
   display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  flex-wrap: wrap;
+  flex-direction:row;
+  flex-wrap:wrap;
+  padding:2rem;
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -912,7 +914,7 @@ input[type="text"] {
     height: 40vh;
     display: flex;
     flex-direction: row;
-    padding: 2rem 0;
+    padding: 1rem 0;
     flex-wrap: wrap;
   }
 }
@@ -929,8 +931,8 @@ input[type="text"] {
   }
 }
 .footer1 {
-  padding-left: 30px;
-  font-size: 1.8rem;
+  padding-left:50px;
+  
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   .footer1 {
@@ -956,7 +958,8 @@ input[type="text"] {
 }
 #offer {
   text-align: justify;
-  padding: 2.8rem;
+  padding-left:1rem;
+  margin-top:2rem;
   font-size: 2rem;
 }
 @media (max-width: 1023px) and (min-width: 768px) {
@@ -1062,8 +1065,9 @@ input[type="text"] {
   }
 }
 h4 {
-  font-size: 2rem;
-  margin-bottom: 50px;
+  font-size:2rem;
+  margin-top:5px;
+  margin-bottom:40px;
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   h4 {
@@ -1079,7 +1083,7 @@ h4 {
 }
 .footer a {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-decoration: none;
   padding: 0.8rem;
 }
@@ -1099,7 +1103,7 @@ h4 {
   margin: 0;
   padding: 0.5rem;
   text-align: justify;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
@@ -1123,7 +1127,6 @@ h4 {
 }
 
 .subscribe {
-  padding-bottom: 10px;
   text-align: right;
   margin-left: 680px;
 }
