@@ -12,7 +12,7 @@ header {
   height: 8rem;
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   header {
     height: 10rem;
   }
@@ -338,6 +338,13 @@ h2 {
   align-self: center;
   font-size: 2.5rem;
 }
+@media (max-width: 1023px) and (min-width: 768px) {
+  h2{
+   margin-left:10px;
+   text-align: center;
+  }
+}
+
 @media (max-width: 767px) and (min-width: 320px) {
   h2 {
     font-size: 3rem;
@@ -568,42 +575,43 @@ h5 {
   flex-wrap:wrap;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
   .footer {
     background-color: #077def;
     color: #fff;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    padding: 1rem 0;
-    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    flex-wrap:wrap;
   }
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (min-width: 320px ) and (max-width: 767px){
   .footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 250vh;
-    padding: 3rem 6rem;
-    justify-content: left;
+    height:250vh;
+    padding:2px;
+    justify-content:left;
+    align-content: flex-start;
     width: 100%;
   }
 }
 .footer1 {
-  padding-left: 50px;
+  padding-left:50px;
   font-size: 1.5rem;
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   .footer1 {
-    padding-left: 20px;
+    padding-left:40px;
     font-size: 1rem;
   }
 }
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 500px) {
   .footer1 {
-    padding-left: 50px;
+    padding-left:0px;
     font-size: 20px;
     align-self: stretch;
   }
@@ -614,7 +622,8 @@ h5 {
 
 @media (max-width: 767px) and (min-width: 320px) {
   .image svg {
-    width: 100vw;
+    width: 80vw;
+    margin-left: 30px;
   }
 }
 #offer {
@@ -625,15 +634,17 @@ h5 {
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   #offer {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #offer {
     text-align: justify;
     padding: 1rem;
     font-size: 3rem;
+    margin-left: 50px;
+    flex-grow:stretch ;
   }
 }
 
@@ -651,7 +662,7 @@ h5 {
 }
 @media (max-width: 767px) and (min-width: 320px) {
   .footer2 {
-    margin-left: 3rem;
+    margin-left:3rem;
   }
 }
 
@@ -726,19 +737,19 @@ h5 {
   }
 }
 h4 {
-  font-size: 2rem;
+  font-size:2rem;
   margin-bottom: 40px;
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   h4 {
     font-size: 1.2rem;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin-bottom:40px;
+    margin-top:15px;
   }
 }
 @media (max-width: 767px) and (min-width: 320px) {
   h4 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 .footer a {
@@ -749,7 +760,7 @@ h4 {
 }
 @media (max-width: 1023px) and (min-width: 767px) {
   .footer a {
-    margin-left: 20px;
+    margin-left:5px;
     font-size: 1rem;
   }
 }
@@ -769,7 +780,7 @@ h4 {
 @media (max-width: 1023px) and (min-width: 768px) {
   .footer p {
     margin: 0;
-    padding: 0.3rem;
+    padding: 0.5rem;
     text-align: justify;
     font-size: 1rem;
   }
@@ -784,26 +795,26 @@ h4 {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  margin-top:10px;
 }
 
 .subscribe {
   text-align: right;
   margin-left: 750px;
 }
-@media (max-width: 1023px) and (min-width: 768px) {
-  .subscribe {
-    padding-bottom: 10px;
-    text-align: right;
-    margin-left: 330px;
+@media (max-width: 1023px) and (min-width: 768px){
+  .subscribe{
+   flex-wrap:nowrap;
+   margin-right:300px;
   }
 }
-@media (max-width: 767px) and (min-width: 320px) {
-  .subscribe {
-    padding-left: 0px;
-    text-align: left;
-  }
-}
+@media (max-width: 767px) and  (min-width: 320px) {
+  .subscribe{
+    margin-left:-450px;
+    text-align:left;
 
+  }
+}
 .subscribe input[type="email"] {
   padding: 10px;
   border: 1px solid #ddd;
@@ -826,7 +837,6 @@ h4 {
   .subscribe input[type="email"] {
     font-size: 2rem;
     font-weight: bold;
-    margin-right: 150px;
   }
 }
 #sub {
