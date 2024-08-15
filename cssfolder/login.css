@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #077def;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width: 700px;
+  min-height: 792px;
+  margin: 50px auto;
+}
+
+.logo {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.logo h1 {
+  color: #077def;
+  text-align: left;
+  font-family: "Manrope-ExtraBold", sans-serif;
+  font-size: 1.4rem;
+  line-height: 32px;
+  font-weight: 800;
+}
+/* welcome back */
+.welcome-back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.welcome-back h1 {
+  color: #077def;
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 2.25rem;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.welcome-back h3 {
+  color: #000000;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.glad h4 {
+  color: #000000;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.google-logo-con {
+  display: flex;
+  align-items: center;
+}
+.google-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.google-text {
+  text-align: center;
+  color: #555;
+  margin-left: 10px;
+}
+.google-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.google-text a:hover {
+  color: #077def;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 603px;
+  padding-left: 69px;
+  margin-top: 50px;
+}
+
+.form-group label {
+  color: #545454;
+  text-align: left;
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  height: 48px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.remember-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.remember-me a {
+  color: #000000;
+  text-decoration: none;
+}
+.remember-me a:hover {
+  color: #077def;
+}
+
+/* login */
+
+.login {
+  background: #077def;
+  border-radius: 5px;
+  padding: 12px 16px;
+  height: 48px;
+  border: none;
+  text-decoration: none;
+}
+.login a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.signup-for-free {
+  text-align: left;
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  align-self: stretch;
+}
+.signup-for-free :nth-child(1) {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 600;
+}
+.signup-for-free :nth-child(2) a {
+  color: #077def;
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 390px;
+    margin: 30px auto;
+    min-height: 700px;
+  }
+  .logo {
+    padding-left: 70px;
+  }
+  .logo img {
+    width: 50px;
+  }
+
+  .logo h1 {
+    font-size: 1.1rem;
+  }
+
+  .welcome-back h1 {
+    font-size: 1.7rem;
+  }
+
+  .welcome-back h3 {
+    font-size: 1.3rem;
+  }
+
+  .glad h4 {
+    font-size: 1.2rem;
+  }
+
+  .login-form {
+    gap: 20px;
+    width: 350px;
+    padding-left: 25px;
+    margin-top: 30px;
+  }
+
+  .remember-me {
+    font-weight: 500;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .remember-me a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .remember-me a:hover {
+    color: #077def;
+  }
+
+  .button[type="submit"] {
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}

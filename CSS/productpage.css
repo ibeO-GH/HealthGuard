@@ -462,7 +462,7 @@ footer {
 }
 
 
-/*800px samsung galaxy tabc S7*/
+/*800px*/
 @media only screen and (min-width: 800px) and (max-width: 802px) {
     .contact-links {
         position: relative;
@@ -516,7 +516,7 @@ footer {
         flex-direction: column;
         padding: 0px 20px;
         transition: all .5s ease;
-}
+    }
 
     .list.open {
         right: 0;
@@ -536,14 +536,13 @@ footer {
 
     .footnote-links-container{
         /* border: 2px solid black; */
-        width: 740px;
+        width: 790px;
         margin-bottom: 15px;
-        margin-left: -10px;
     }
 
     .footnote {
         position: relative;
-        left: -42px;
+        left: -32px;
         /* border: 2px solid black; */
     }
 
@@ -555,29 +554,29 @@ footer {
     .products-links, .resources-links {
         position: relative;
         top: 8px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .company-links {
         position: relative;
         top: 8px;
-        margin-left: -60px;
+        margin-left: -50px;
     }
 
     .legal-links {
         position: relative;
         top: 8px;
-        right: 10px;
+        right: 20px;
     }
 
     .contact-links {
-        margin-right: 2010px;
+        margin-right: 2040px;
         margin-top: 20px;
     }
 
     .subscription-section {
         position: relative;
-        left: 50px;
+        left: -291px;
         top: 0px;
     }
 
@@ -882,10 +881,6 @@ footer {
             flex-direction: column;
             padding: 0px 20px;
             transition: all .5s ease;
-            -webkit-transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            -ms-transition: all .5s ease;
-            -o-transition: all .5s ease;
 }    
     .list.open {
         right: 0;
@@ -1203,8 +1198,7 @@ footer {
     }
 }
 
-/*ipaid air*/
-@media only screen and (min-width: 820px) and (max-width: 823px) {
+@media only screen and (min-width: 820px) and (max-width: 1105px) {
     .top-bar {
         height: 7vh;
     }
@@ -1289,115 +1283,16 @@ footer {
 
     .contact-links {
         position: relative;
-        left: -295px;
-        top: 20px;
-        border: 1px solid black;
+        left: -313px;
+        /* top: 20px; */
     }
 
     .subscription-section {
         margin-top: -10px;
-        /* margin-left: 320px; */
-        /* display: flex; */
-        /* border: 1px solid black; */
+        margin-left: 320px;
     }
 
     body {
         overflow-x: hidden;
-    }
-}
-
-/*1100px*/ /* Galaxy fold2 */
-@media only screen and (min-width: 900px) and (max-width: 1100px) {
-    .top-bar {
-        padding: 10px 29px;
-    }
-    
-    .top-bar h5 {
-        font-size: 16px;
-    }
-    
-    form {
-        width: 300px;
-    }
-    
-    #search-drugs {
-        font-size: 16px;
-    }
-    
-    .login-signup-btn {
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    .navbar {
-        /* width: 50%; */
-        border: 2px solid black;
-    }
-    
-    .navbar ul li a {
-        padding: 10px 0px;
-        font-size: 6px;
-    }
-    
-    .menu-bar {
-        display: none;
-    }
-    
-    .shop-by-category h3, .care-for-chronic-conditions h3, .vaccines-and-speciality-medication h3, .mother-and-child-wellness h3, .healthcare-professionals-toolkit h3 {
-        padding: 20px 22px;
-        /* height: 50px; */
-    }
-    
-    footer {
-        padding: 20px 0px;
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-    }
-    
-    .footnote-links-container {
-        padding: 0px 17px 33px 17px; /*trbl*/
-        /* padding: 0px 47px; */
-        position: relative;
-        left: -10px;
-        /* border: 1px solid black; */
-        width: 100%;
-    }
-    
-    .logo-container img{
-        height: 47px;
-    }
-    
-    .logo-container h5{
-        font-size: 15px;
-        padding-left: 3px;
-    }
-    
-    .company-links, .products-links, .resources-links, .legal-links {
-        margin-right: 20px;
-    }
-    
-    .contact-links {
-        position: relative;
-        left: -303px;
-        top: 20px;
-        left: 10px;
-        /* margin-top: 20px; */
-        border: 3px solid black;
-    }
-    
-    .input-email {
-        display: flex;
-        align-items: center;
-        /* border: 1px solid black; */
-    }
-
-    .subscription-section {
-        /* border: 1px solid black; */
-        margin-right: -23px;
-    }
-    
-    .input-email button {
-        /* padding: 12px 26px; */
-        margin-left: 10px;
     }
 }

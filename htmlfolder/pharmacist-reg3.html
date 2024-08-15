@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../imagess/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../cssfolder/pharmacist-reg3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>HealthGuard</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="../imagess/medreminderpage/logo.svg" />
+        <h5>HEALTHGUARD</h5>
+      </div>
+
+      <div class="headnote">
+        <p>Join Our Community of Trusted Pharmacists and Pharmacies</p>
+        <h2>Empower Your Practice, Expand Your Reach</h2>
+      </div>
+
+      <div class="reg-btn">
+        <button class="pharmacist-btn">
+          <a href=""> Pharmacist Registration </a>
+        </button>
+        <button class="pharmacy-btn">
+          <a href=""> Pharmacy Registration</a>
+        </button>
+      </div>
+
+      <div class="info">
+        <p>Account information</p>
+      </div>
+
+      <form class="pharmacist-form">
+        <div class="form-group">
+          <label for="username"> Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Healthguard"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Healthguard"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm password"
+            placeholder="Healthguard"
+          />
+        </div>
+
+        <div class="account">
+          <p>Account information</p>
+        </div>
+
+        <p>Availability</p>
+
+        <div class="days">
+          <label for="Days">Days</label>
+          <input type="text" id="days" name="days" placeholder="Sun" />
+          <input type="text" id="week" name="week" placeholder="Mon" />
+          <input type="text" id="week" name="week" placeholder="Tue" />
+          <input type="text" id="week" name="week" placeholder="Wed" />
+          <input type="text" id="week" name="week" placeholder="Thur" />
+          <input type="text" id="week" name="week" placeholder="Fri" />
+          <input type="text" id="week" name="week" placeholder="Sat" />
+        </div>
+
+        <div class="time-container">
+          <p>Time</p>
+
+          <div class="time">
+            <div>
+              <label for="From"> From </label>
+              <input type="time" id="time" name="from" placeholder="12:00 PM" />
+            </div>
+
+            <div>
+              <label for="to"> To</label>
+              <input type="time" id="time" name="to" placeholder="12:00 AM" />
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-btn">
+          <button type="submit">SUBMIT</button>
+          <button type="reset">RESET</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

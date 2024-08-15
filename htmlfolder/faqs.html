@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>HEALTHGUARD</title>
+    <title>FAQS</title>
     <meta charset="UTF-8" />
     <meta name="viewport" width="device-width" initial-scale="1.0" />
     <link
       rel="shortcut icon"
-      href="/images/favicon/favicon.ico"
+      href="../imagess/favicon/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/CSS/blogstyle.css" />
+    <link rel="stylesheet" href="../cssfolder/faqsstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <!---HEADER OF THE WEBSITE--->
   <header>
     <div class="containers">
       <div class="logo">
@@ -29,6 +38,7 @@
             fill="white"
           />
         </svg>
+        `
       </div>
       <button class="toggle-button">
         <span class="bar"></span>
@@ -36,10 +46,10 @@
         <span class="bar2"></span>
       </button>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
-        <li class="active"><a href="#">FAQs</a></li>
+        <li><a href="#">FAQs</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Find a Pharmacy</a></li>
@@ -49,183 +59,189 @@
 
   <!---BODY OF THE WEBSITE--->
   <body>
-    <div class="container">
+    <div class="container1">
       <!--a container for the hero section-->
       <div id="overlay">
         <div id="text">
-          <h1>HEALTHGUARD</h1>
-
-          <p>
-            Navigate your health Journey Our <br />
-            Expert Advice and Resources
-          </p>
-
-          <form>
-            <input
-              type="text"
-              id="search"
-              name="search"
-              value="What will you like to know?"
-            />
-          </form>
+          <h1>
+            Frequently<br />
+            Asked<br />
+            Questions
+          </h1>
         </div>
       </div>
     </div>
 
-    <!--this is the start of the second container -->
     <div class="container2">
-      <!--this is a section with image and text by the side-->
-      <div class="section-role">
-        <img
-          src="/images/faqs&blog/unsplash-4-a-1-al-8-s-id-1-m0.png"
-          width="100%"
-        />
+      <div class="image1">
+        <svg
+          width="279"
+          height="61"
+          viewBox="0 0 279 61"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="38.5" cy="30.5" r="22.5" fill="#D9D9D9" />
+          <circle cx="63.5" cy="30.5" r="23" fill="#141BC1" stroke="white" />
+          <path
+            d="M95.6128 39.5V22.9112H98.7462V29.731H106.165V22.9112H109.299V39.5H106.165V32.6571H98.7462V39.5H95.6128ZM112.533 39.5V22.9112H123.362V25.8373H115.666V29.3854H121.979V32.3115H115.666V36.5739H123.362V39.5H112.533ZM124.971 39.5L130.04 22.9112H134.717L139.786 39.5H136.56L132.044 24.8696H132.643L128.196 39.5H124.971ZM128.012 36.044V33.1179H136.767V36.044H128.012ZM142.081 39.5V22.9112H145.214V36.5739H152.357V39.5H142.081ZM155.868 39.5V25.8373H150.638V22.9112H164.232V25.8373H159.001V39.5H155.868ZM166.083 39.5V22.9112H169.216V29.731H176.635V22.9112H179.769V39.5H176.635V32.6571H169.216V39.5H166.083ZM189.915 39.8456C188.87 39.8456 187.876 39.6613 186.931 39.2926C185.986 38.9163 185.149 38.3634 184.42 37.6338C183.698 36.9042 183.126 36.0018 182.703 34.9266C182.289 33.8514 182.081 32.611 182.081 31.2056C182.081 29.3701 182.431 27.811 183.13 26.5285C183.836 25.2382 184.781 24.2552 185.963 23.5794C187.154 22.9035 188.471 22.5656 189.915 22.5656C192.05 22.5656 193.728 23.061 194.949 24.0517C196.17 25.0424 196.988 26.444 197.403 28.2565L194.2 28.7173C193.901 27.7496 193.409 26.9778 192.726 26.4018C192.05 25.8181 191.182 25.5224 190.122 25.5147C189.07 25.4994 188.194 25.7259 187.496 26.1944C186.797 26.6629 186.271 27.3272 185.917 28.1874C185.572 29.0475 185.399 30.0536 185.399 31.2056C185.399 32.3576 185.572 33.356 185.917 34.2008C186.271 35.0456 186.797 35.7022 187.496 36.1707C188.194 36.6392 189.07 36.8811 190.122 36.8965C190.836 36.9118 191.482 36.789 192.058 36.5278C192.641 36.2667 193.133 35.8558 193.532 35.2952C193.931 34.7346 194.216 34.0165 194.385 33.141H191.758V30.7218H197.725C197.741 30.8216 197.752 30.9982 197.76 31.2517C197.768 31.5051 197.771 31.651 197.771 31.6894C197.771 33.2792 197.449 34.6885 196.804 35.9173C196.159 37.1461 195.249 38.1099 194.074 38.8088C192.898 39.5 191.512 39.8456 189.915 39.8456ZM206.831 39.8456C205.495 39.8456 204.32 39.5768 203.306 39.0392C202.292 38.4939 201.501 37.7298 200.933 36.7467C200.364 35.7637 200.08 34.6078 200.08 33.2792V22.9342L203.26 22.9112V33.2562C203.26 33.8014 203.352 34.2968 203.536 34.7422C203.721 35.1877 203.974 35.5717 204.297 35.8942C204.627 36.2168 205.007 36.4664 205.437 36.643C205.875 36.812 206.34 36.8965 206.831 36.8965C207.338 36.8965 207.806 36.8082 208.236 36.6315C208.674 36.4549 209.054 36.2053 209.377 35.8827C209.7 35.5602 209.949 35.1762 210.126 34.7307C210.31 34.2853 210.402 33.7938 210.402 33.2562V22.9112H213.582V33.2792C213.582 34.6078 213.298 35.7637 212.729 36.7467C212.161 37.7298 211.37 38.4939 210.356 39.0392C209.342 39.5768 208.167 39.8456 206.831 39.8456ZM214.948 39.5L220.017 22.9112H224.694L229.763 39.5H226.537L222.022 24.8696H222.621L218.174 39.5H214.948ZM217.99 36.044V33.1179H226.745V36.044H217.99ZM231.828 39.5V22.9112H238.832C238.993 22.9112 239.208 22.9189 239.477 22.9342C239.754 22.9419 239.999 22.965 240.214 23.0034C241.205 23.157 242.015 23.4834 242.645 23.9826C243.283 24.4818 243.751 25.1115 244.051 25.8718C244.35 26.6245 244.5 27.4654 244.5 28.3947C244.5 29.7848 244.154 30.9752 243.463 31.9659C242.772 32.949 241.689 33.5557 240.214 33.7861L238.832 33.8782H234.961V39.5H231.828ZM241.182 39.5L237.91 32.7493L241.136 32.1272L244.73 39.5H241.182ZM234.961 30.9522H238.694C238.855 30.9522 239.032 30.9445 239.224 30.9291C239.416 30.9138 239.592 30.883 239.754 30.837C240.176 30.7218 240.502 30.5298 240.733 30.261C240.963 29.9845 241.121 29.6811 241.205 29.3509C241.297 29.013 241.343 28.6942 241.343 28.3947C241.343 28.0952 241.297 27.7803 241.205 27.4501C241.121 27.1122 240.963 26.8088 240.733 26.54C240.502 26.2635 240.176 26.0677 239.754 25.9525C239.592 25.9064 239.416 25.8757 239.224 25.8603C239.032 25.845 238.855 25.8373 238.694 25.8373H234.961V30.9522ZM247.263 39.5V22.9112H252.631C252.762 22.9112 253.03 22.915 253.438 22.9227C253.845 22.9304 254.236 22.9573 254.613 23.0034C255.949 23.1646 257.082 23.6293 258.011 24.3973C258.94 25.1653 259.647 26.1406 260.131 27.3234C260.614 28.5061 260.856 29.8002 260.856 31.2056C260.856 32.611 260.614 33.9051 260.131 35.0878C259.647 36.2706 258.94 37.2459 258.011 38.0139C257.082 38.7819 255.949 39.2466 254.613 39.4078C254.236 39.4539 253.845 39.4808 253.438 39.4885C253.03 39.4962 252.762 39.5 252.631 39.5H247.263ZM250.442 36.5509H252.631C252.838 36.5509 253.119 36.547 253.472 36.5394C253.825 36.524 254.144 36.4894 254.428 36.4357C255.15 36.2898 255.738 35.9518 256.191 35.4219C256.652 34.892 256.99 34.2546 257.205 33.5096C257.427 32.7646 257.539 31.9966 257.539 31.2056C257.539 30.3762 257.423 29.589 257.193 28.844C256.97 28.099 256.629 27.4693 256.168 26.9547C255.707 26.4402 255.127 26.1138 254.428 25.9755C254.144 25.9141 253.825 25.8795 253.472 25.8718C253.119 25.8642 252.838 25.8603 252.631 25.8603H250.442V36.5509Z"
+            fill="#077DEF"
+          />
+        </svg>
       </div>
 
-      <div class="text1">
-        <h3>
-          The Role of Pharmacists in Telemedicine:<br />Opportunities and
-          Challenges
-        </h3>
-        <p>
-          What role does telemedicine play in the future of pharmaceutical
-          work?<br />
-          HealthGuard explains a few challenges and opportunities on the
-          horizon.
-        </p>
-        <button id="read">Read more</button>
-      </div>
+      <h2>
+        Quick answers to questions you may have about how Healthguard works
+      </h2>
+      <p>
+        Can't find what you are looking for? Chat to our friendly team for
+        support!
+      </p>
+      <form>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          value="Search your Question"
+        /><i class="fas fa-search"></i>
+      </form>
     </div>
 
-    <!--end-->
-
-    <!--this is the start of the third container-->
     <div class="container3">
-      <!--this is a section with image-->
-      <div class="section-heat">
-        <img
-          src="/images/faqs&blog/unsplash-qp-n-5-m-lx-1-uwk0.png"
-          width="100%"
-        />
+      <h1>General Questions</h1>
+
+      <div class="sub-one">
+        <h5>Q:What services do you offer?</h5>
+        <br />
+        <p>
+          Ans: We offer a wide range of pharmaceutical services including
+          prescription, refills,medication reminders,and online consultations
+          with pharmacists.
+        </p>
       </div>
 
-      <!--this is a section with text-->
-      <div class="text2">
-        <h3>Early Signs of Heat Stroke(and how best to prevent them)</h3>
+      <div class="sub-two">
+        <h5>Q:How do i add my medication to the app?</h5>
+        <br />
         <p>
-          This period has been one of the hottest ever recorded and with these
-          extreme<br />
-          temperature comes serious heat like heat exhaustion and its more
-          serious and <br />
-          advanced form of heat stroke.
+          Ans:After loggin in,go to the mediaction page under "My profile".You
+          can search for your medication by name and select the appropriate one
+          from the list.Enter the dosage and schedule.
         </p>
-        <button id="read">Read more</button>
+      </div>
+
+      <div class="sub-three">
+        <h5>Q:What should i do if i forget my password?</h5>
+        <br />
+        <p>
+          Ans:If you forget your password,click on the "Forget Password link on
+          the login page.Enter your email address and you will receive
+          instructions on how to reset your password.
+        </p>
+      </div>
+
+      <div class="sub-four">
+        <h5>Q:How should i contact customer support?</h5>
+        <br />
+        <p>
+          Ans:If you need assistance, you an contact our customer support team
+          by going to the "Contact Us" section and filling out the contact
+          form,emailing us at support@Healthguard@gmail.com,or calling our
+          support hotline at +2347000000000.
+        </p>
+      </div>
+
+      <div class="sub-five">
+        <h5>Q:Is my personal account secure?</h5>
+        <br />
+        <p>
+          Ans: Yes,we take your privacy and security seriously.Healthguard uses
+          advanced encryption and security measures to protect your opersonal
+          information.We also comply with relevant data protection regulations
+          to ensure your information is handled safely.
+        </p>
+      </div>
+
+      <div class="sub-six">
+        <h5>Q:How do i schedule a consultation with a pharmacist?</h5>
+        <br />
+        <p>
+          Ans:To schedule a consultation,go to the "Pharmacist Consultation
+          Section",choose your preferred consultation type,select a convenient
+          time slot,and provide details about your health concerns or
+          questions.Confirm your appointment.
+        </p>
+      </div>
+
+      <div class="sub-seven">
+        <h5>Q:How do i order prescription online?</h5>
+        <br />
+        <p>
+          Ans:To order a prescription online,go to the "Order
+          Refills"section,select medication you need to refill and follow the
+          prompts to complete your order.
+        </p>
       </div>
     </div>
 
-    <!--start of the fourth container -->
     <div class="container4">
-      <!--this is a section with image-->
-      <div class="section-vaccine">
-        <img
-          src="/images/faqs&blog/unsplash-j-wpny-zd-gz-780.png"
-          width="100%"
-        />
-      </div>
+      <h2>Practitioner Questions</h2>
 
-      <!--this is a section with text-->
-      <div class="text3">
-        <h3>
-          The Importance of Vaccinations and their<br />Role in Public Health
-        </h3>
+      <div class="sub-eight">
+        <h5>Q: How do i register as a pharmacist on your platform?</h5>
+        <br />
         <p>
-          Vaccinations are among the most powerful tools modern medicine
-          provides for<br />
-          public health. It’s estimated that before 2040 as many as 50 million
-          death will be prevented by their protection.
+          Ans: To register as a pharmacist, go to the “Practitioner“ section on
+          the home page. Fill out the required information, including name,
+          contact details, license number, and professional background.Once you
+          submit your registration, our team will review your credentials and
+          notify you upon approval
         </p>
-        <button id="read">Read more</button>
-      </div>
-    </div>
-
-    <!--start of the fifth container -->
-    <div class="container5">
-      <!--this is a section with image-->
-      <div class="section-mental">
-        <img
-          src="/images/faqs&blog/unsplash-ko-3-emb-fggok0.png"
-          width="100%"
-        />
       </div>
 
-      <!--this is a section with text-->
-      <div class="text4">
-        <h3>
-          How to Manage Different Mental Health<br />Disorder and Conditions.
-        </h3>
+      <div class="sub-nine">
+        <h5>Q: What type of services can i offer as a pharmacist?</h5>
+        <br />
         <p>
-          Our mental health is as important as our physical health . Just like
-          we take care<br />of our bodies, we also need to take care of our
-          minds.
+          As a registered pharmacy, you can offer various services, including
+          medication consultations, drug interaction checks, health advice, and
+          prescription management. You can provide these through phone calls,
+          video consultations, or in person meetings, depending on your
+          preference and availability.
         </p>
-        <button id="read">Read more</button>
-      </div>
-    </div>
-
-    <!--start of the sixth container -->
-    <div class="container6">
-      <!--this is a section with image-->
-      <div class="section-covid">
-        <img
-          src="/images/faqs&blog/unsplash-m-agznec-mc-ug0.png"
-          width="100%"
-        />
       </div>
 
-      <!--this is a section with text-->
-      <div class="text5">
-        <h3>What You Need To Know About The New<br />Covid 19 Vaccines</h3>
+      <div class="sub-ten">
+        <h5>Q: Are there any fees for using the platform?</h5>
+        <br />
         <p>
-          While Covid-19 might not be as pressing of a problem as it was during
-          the peak of the pandemic , the virus and its many variants
+          Ans: HEALTHGUARD charges a small commission on each consultation to
+          cover operational costs. The exact percentage will be detailed in the
+          terms of services during registration. There are no upfront costs or
+          subscription fees for registering as a pharmacist
         </p>
-        <button id="read">Read more</button>
-      </div>
-    </div>
-
-    <!--start of the seventh container -->
-    <div class="container7">
-      <!--this is a section with image-->
-      <div class="section-cancer">
-        <img
-          src="/images/faqs&blog/unsplash-kw-nj-6-a-0-m-6-ca0.png"
-          width="100%"
-        />
       </div>
 
-      <!--this is a section with text-->
-      <div class="text6">
-        <h3>Breast Cancer: Symptoms, Types, Causes and Treatment.</h3>
+      <div class="sub-eleven">
+        <h5>Q:Can i set my own consultation fees?</h5>
+        <br />
         <p>
-          Breast Cancer is a type of cancer that affects the breast issue, and
-          it’s more<br />common than you might think. Many people have heard of
-          it, but not everyone knows what it really means. So, let's start by
-          understanding what breast cancer <br />is and why it's important for
-          every female to be aware of it..
+          Ans: Yes, you have the flexibility to set your own consultation fees.
+          Go to the “Consultation Fee” section in your account settings and
+          specify the charges for different types of consultation.
         </p>
-        <button id="read">Read more</button>
       </div>
-    </div>
 
-    <!--container fot pagination-->
-    <div class="pagination">
-      <a href="#">Previous</a>
-      <a href="#">1</a>
-      <a class="active" href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
-      <a href="#">Next</a>
+      <div class="sub-twelve">
+        <h5>Q:How do i receive payments for my own consultations?</h5>
+        <br />
+        <p>
+          Ans: Payments for consultations are processed through our secure
+          payment system. You will need to provide your bank account details or
+          set up a payment method in the “Payment Settings” section of your
+          account. Payments are typically disbursed on a weekly basis.
+        </p>
+      </div>
     </div>
 
     <div class="footer">
@@ -377,6 +393,6 @@
       </div>
     </div>
 
-    <script src="/Script/blog.js"></script>
+    <script src="../scriptfolder/blog.js"></script>
   </body>
 </html>
