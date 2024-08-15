@@ -17,6 +17,17 @@ body {
   border-radius: 10px;
 }
 
+.back {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+.back a  {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
 /* logo */
 .logo {
   display: flex;
@@ -25,7 +36,6 @@ body {
   align-items: center;
   font-size: 1.4rem;
   color: #077def;
-  padding-top: 50px;
 }
 
 .logo img {
