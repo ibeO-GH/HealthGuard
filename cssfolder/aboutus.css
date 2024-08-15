@@ -716,8 +716,15 @@ a.login-btn:hover {
   .ourvision-content h2 {
     margin-bottom: 0.5rem;
   }
+  .ourvision-text h2 {
+    font-size: 2.4rem;
+  }
   .ourvison-text p {
     font-size: 1.5rem;
+  }
+  .chat-details a {
+    font-size: 1.3rem;
+    padding: 0.7rem 1rem;
   }
   .page-footer {
     padding: 1.5rem 0;
