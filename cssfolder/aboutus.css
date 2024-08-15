@@ -76,7 +76,7 @@ html {
   text-transform: capitalize;
   font-size: 1.9rem;
   font-weight: 600;
-  padding: 2.3rem;
+  padding: 2.3rem 3rem;
 }
 .nav-links a:hover {
   text-decoration: underline;
@@ -90,7 +90,7 @@ a.login-btn {
   color: #1019eb;
   border: none;
   border-radius: 5px;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2rem;
 }
 a.login-btn:hover {
   color: #fff;
@@ -104,7 +104,7 @@ a.login-btn:hover {
     display: none;
   }
 }
-
+/* Hero section */
 .hero {
   position: relative;
   width: 100%;
@@ -155,7 +155,7 @@ a.login-btn:hover {
   font-size: 2.5rem;
   text-transform: capitalize;
 }
-
+/* about us section */
 .aboutus-section {
   width: 100%;
   height: auto;
@@ -185,25 +185,200 @@ a.login-btn:hover {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutus-text h2 {
-  text-align: left;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #077def;
   text-transform: capitalize;
 }
 
 .aboutus-text p {
-  text-align: left;
+  text-align: center;
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
 
+/* Mission Section*/
+.ourmission {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  display: flex;
+}
+
+.mission-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.mission-content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #077def;
+  text-transform: uppercase;
+}
+
+.mission-content p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.fa-diamond,
+.fa-minus {
+  font-size: 1.8rem;
+  color: #077def;
+}
+
+/* our vision section */
+.ourvision-section {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  padding-top: 5rem;
+}
+
+.ourvision-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 9rem;
+}
+
+.ourvision-image img {
+  width: 100%;
+}
+
+.ourvision-image {
+  width: 45rem;
+  height: auto;
+}
+
+.ourvision-text {
+  width: 45rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourvision-text h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #077def;
+}
+
+.ourvision-text p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+/* contact us Section*/
+.contactus-section {
+  width: 100%;
+  height: auto;
+}
+
+.contactus-heading {
+  margin: 3.5rem auto;
+  text-align: center;
+}
+
+.contactus-heading h2 {
+  color: #077def;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.contactus-heading p {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.line-rule {
+  height: 0.2rem;
+  width: 16rem;
+  background: #077def;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.fa-circle {
+  font-size: 1rem;
+  color: #077def;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 9rem;
+}
+
+.call-box,
+.chat-box {
+  width: 45rem;
+  height: 20rem;
+  background: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-details,
+.chat-details {
+  margin-left: 2rem;
+}
+
+.fa-phone,
+.fa-message {
+  color: #077def;
+  font-size: 2rem;
+  border: 1px solid #077def;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.contact-p {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.call-details h3 {
+  font-size: 1.5rem;
+}
+
+.chat-details a {
+  text-decoration: none;
+  background: #077def;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  padding: 0.7rem 1.5rem;
+}
+
+.chat-details a:hover {
+  color: #fff;
+  background-color: #1019eb;
+}
 /* footer Section*/
 .page-footer {
   width: 100%;
@@ -392,6 +567,37 @@ a.login-btn:hover {
   .hero-text p {
     font-size: 2rem;
   }
+  .aboutus-image {
+    width: 35rem;
+    height: auto;
+  }
+  .aboutus-text {
+    width: 35rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  .aboutus-text p {
+    font-size: 1.7rem;
+  }
+  .mission-content h2 {
+    font-size: 2.6rem;
+  }
+
+  .mission-content p {
+    font-size: 1.6rem;
+  }
+  .ourvision-image {
+    width: 35rem;
+    height: auto;
+  }
+  .ourvision-text {
+    width: 35rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  .ourvision-text p {
+    font-size: 1.7rem;
+  }
   .page-footer {
     padding: 2rem 0;
   }
@@ -436,7 +642,6 @@ a.login-btn:hover {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
   }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -481,6 +686,45 @@ a.login-btn:hover {
   .hero-text p {
     font-size: 1.8rem;
     padding: 0.5rem 2rem;
+  }
+  .aboutus-image {
+    width: 30rem;
+  }
+  .aboutus-text {
+    width: 30rem;
+    margin-bottom: 1.5rem;
+  }
+  .aboutus-content h2 {
+    margin-bottom: 0.5rem;
+  }
+  .aboutus-text p {
+    font-size: 1.5rem;
+  }
+  .mission-content h2 {
+    font-size: 2.4rem;
+  }
+  .mission-content p {
+    font-size: 1.5rem;
+  }
+  .ourvision-image {
+    width: 30rem;
+    margin-bottom: 2rem;
+  }
+  .ourvision-text {
+    width: 30rem;
+  }
+  .ourvision-content h2 {
+    margin-bottom: 0.5rem;
+  }
+  .ourvision-text h2 {
+    font-size: 2.4rem;
+  }
+  .ourvison-text p {
+    font-size: 1.5rem;
+  }
+  .chat-details a {
+    font-size: 1.3rem;
+    padding: 0.7rem 1rem;
   }
   .page-footer {
     padding: 1.5rem 0;
