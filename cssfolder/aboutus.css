@@ -185,8 +185,8 @@ a.login-btn:hover {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutus-text h2 {
@@ -198,7 +198,7 @@ a.login-btn:hover {
 }
 
 .aboutus-text p {
-  text-align: left;
+  text-align: center;
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
@@ -230,6 +230,15 @@ a.login-btn:hover {
 .mission-content p {
   font-size: 1.8rem;
   line-height: 2.5rem;
+  text-align: center;
+}
+
+.fa-diamond {
+  font-size: 2rem;
+}
+
+.fa-minus {
+  font-size: 2rem;
 }
 
 /* our vision section */
@@ -602,7 +611,6 @@ a.login-btn:hover {
   .mission-content h2 {
     font-size: 2.4rem;
   }
-
   .mission-content p {
     font-size: 1.5rem;
   }
