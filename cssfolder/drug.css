@@ -27,9 +27,11 @@ nav button a {
   text-decoration: none;
   color: #077def;
 }
+nav button a:hover {
+  color: #fff;
+}
 nav button:hover {
-  background-color: wheat;
-  color: white;
+  background-color: #1019eb;
 }
 
 .container {
