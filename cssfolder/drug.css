@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "manrope" sans-serif;
+  font-family: "manrope", sans-serif;
 }
 nav {
   background-color: #077def;
@@ -283,6 +283,11 @@ input[type="email"] {
   margin-right: 120px;
   font-weight: bold;
   border-radius: 10px;
+}
+
+.footer-address button:hover {
+  color: #fff;
+  background: #1019eb;
 }
 
 @media (max-width: 835px) {
