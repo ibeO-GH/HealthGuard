@@ -561,42 +561,48 @@ a.login-btn:hover {
     text-transform: capitalize;
     background-color: #077def;
   }
+  .hero {
+    height: 70vh;
+  }
   .hero-text h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .hero-text p {
     font-size: 2rem;
   }
+  .aboutus-content {
+    padding: 0 5rem;
+  }
   .aboutus-image {
-    width: 35rem;
+    width: 40rem;
     height: auto;
   }
   .aboutus-text {
-    width: 35rem;
+    width: 40rem;
     height: auto;
-    margin-bottom: 1.5rem;
   }
-  .aboutus-text p {
-    font-size: 1.7rem;
+  .mission-content {
+    width: 70%;
   }
-  .mission-content h2 {
-    font-size: 2.6rem;
-  }
-
-  .mission-content p {
-    font-size: 1.6rem;
+  .ourvision-content {
+    padding: 0 5rem;
   }
   .ourvision-image {
-    width: 35rem;
+    width: 40rem;
     height: auto;
   }
   .ourvision-text {
-    width: 35rem;
+    width: 40rem;
     height: auto;
-    margin-bottom: 1.5rem;
   }
-  .ourvision-text p {
-    font-size: 1.7rem;
+  .contact-content {
+    padding: 0 5rem;
+  }
+  .call-box,
+  .chat-box {
+    width: 40rem;
+    height: auto;
+    margin-bottom: 2rem;
   }
   .page-footer {
     padding: 2rem 0;
@@ -680,51 +686,58 @@ a.login-btn:hover {
   .nav-menu.active {
     transform: translateX(0);
   }
+  .hero {
+    height: 50vh;
+  }
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .hero-text p {
     font-size: 1.8rem;
-    padding: 0.5rem 2rem;
+  }
+  .aboutus-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
   }
   .aboutus-image {
-    width: 30rem;
+    width: 100%;
+    height: auto;
   }
   .aboutus-text {
-    width: 30rem;
-    margin-bottom: 1.5rem;
+    width: 100%;
+    height: auto;
   }
-  .aboutus-content h2 {
-    margin-bottom: 0.5rem;
+  .mission-content {
+    width: 90%;
   }
-  .aboutus-text p {
-    font-size: 1.5rem;
-  }
-  .mission-content h2 {
-    font-size: 2.4rem;
-  }
-  .mission-content p {
-    font-size: 1.5rem;
+  .ourvision-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
   }
   .ourvision-image {
-    width: 30rem;
-    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
   }
   .ourvision-text {
-    width: 30rem;
+    width: 100%;
+    height: auto;
   }
-  .ourvision-content h2 {
-    margin-bottom: 0.5rem;
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
   }
-  .ourvision-text h2 {
-    font-size: 2.4rem;
+  .call-box,
+  .chat-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
   }
-  .ourvison-text p {
-    font-size: 1.5rem;
-  }
-  .chat-details a {
-    font-size: 1.3rem;
-    padding: 0.7rem 1rem;
+  .call-details,
+  .chat-details {
+    margin-left: 0;
   }
   .page-footer {
     padding: 1.5rem 0;
