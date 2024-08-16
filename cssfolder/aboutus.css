@@ -76,7 +76,7 @@ html {
   text-transform: capitalize;
   font-size: 1.9rem;
   font-weight: 600;
-  padding: 2.3rem 3rem;
+  padding: 2.3rem 1.5rem;
 }
 .nav-links a:hover {
   text-decoration: underline;
@@ -90,7 +90,7 @@ a.login-btn {
   color: #1019eb;
   border: none;
   border-radius: 5px;
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 1rem;
 }
 a.login-btn:hover {
   color: #fff;

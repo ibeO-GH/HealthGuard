@@ -76,7 +76,7 @@ html {
   text-transform: capitalize;
   font-size: 1.9rem;
   font-weight: 600;
-  padding: 2.3rem;
+  padding: 2.3rem 1.5rem;
 }
 .nav-links a:hover {
   text-decoration: underline;
