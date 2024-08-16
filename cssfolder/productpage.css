@@ -640,6 +640,10 @@ footer {
     display: none;
   }
 
+  .logo {
+    margin-left: -21px;
+  }
+
   .logo img {
     height: 4vh;
   }
@@ -655,7 +659,7 @@ footer {
 
   .login-signup-btn {
     width: 210px;
-    margin-left: 105px;
+    margin-left: 125px;
   }
 
   .navbar {
@@ -675,12 +679,6 @@ footer {
     flex-direction: column;
     padding: 0px 20px;
     transition: all 0.5s ease;
-    /*
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
-    */
   }
 
   .list.open {
