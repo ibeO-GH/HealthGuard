@@ -669,7 +669,7 @@ footer {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%;
+    left: -130%;
     width: 414px;
     line-height: 35px;
     height: 314px;
@@ -682,7 +682,7 @@ footer {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -766,6 +766,10 @@ footer {
     display: none;
   }
 
+  .logo {
+    margin-left: -4px;
+  }
+
   .logo img {
     height: 4vh;
     margin-left: -20px;
@@ -782,7 +786,7 @@ footer {
 
   .login-signup-btn {
     width: 210px;
-    margin-left: 100px;
+    margin-left: 102px;
   }
 
   .navbar {
@@ -792,7 +796,7 @@ footer {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%;
+    left: -130%;
     width: 393px;
     line-height: 35px;
     height: 314px;
@@ -802,9 +806,9 @@ footer {
     flex-direction: column;
     padding: 0px 20px;
     transition: all 0.5s ease;
-  }
+}
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -898,7 +902,7 @@ footer {
 
   .login-signup-btn {
     width: 210px;
-    margin-left: 86px;
+    margin-left: 83px;
   }
 
   .navbar {
@@ -908,7 +912,7 @@ footer {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%;
+    left: -130%;
     width: 390px;
     line-height: 35px;
     height: 314px;
@@ -919,8 +923,9 @@ footer {
     padding: 0px 20px;
     transition: all 0.5s ease;
   }
+
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -985,7 +990,7 @@ footer {
   }
 }
 
-/*360 mobile width*/
+/*360 mobile width samsung galaxy s21*/
 @media only screen and (min-width: 360px) and (max-width: 365px) {
   .top-bar {
     margin-left: -10px;
@@ -998,7 +1003,7 @@ footer {
 
   .logo img {
     height: 4vh;
-    margin-left: -25px;
+    margin-left: -23px;
   }
 
   .logo h5 {
@@ -1012,7 +1017,7 @@ footer {
 
   .login-signup-btn {
     width: 210px;
-    margin-left: 80px;
+    margin-left: 74px;
   }
 
   .navbar {
@@ -1022,7 +1027,7 @@ footer {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%; /*0*/
     width: 360px;
     line-height: 35px;
     height: 314px;
@@ -1035,7 +1040,7 @@ footer {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -1324,7 +1329,7 @@ footer {
   .contact-links {
     position: relative;
     left: -313px;
-    /* top: 20px; */
+    top: 20px;
   }
 
   .subscription-section {
