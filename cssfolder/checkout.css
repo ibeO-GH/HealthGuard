@@ -347,8 +347,97 @@ form {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 1179px) and (max-width: 1182px) {
+    .summary {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1105px) {
+    .top-bar {
+        height: 7vh;
+    }
+    
+    .logo img {
+        margin-left: -20px;
+    }
+
+    form {
+        /* display: none; */
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .fa-user {
+        font-size: 17px;
+    }
+
+    .top-search-bar {
+        display: flex;
+        padding: 5px;
+    }
+
+
+    .login-signup-btn {
+        position: relative;
+        left: 30px;
+        /* margin-left: 50px; */
+        /* width: 70px; */
+        font-weight: 5px;
+    }
+
+    .navbar {
+        padding: 18px 0px;
+    }
+
+    
+    .list {
+        position: absolute;
+        top: 44%;
+        left: -130%;
+        width: 414px;
+        line-height: 55px;
+        height: 460px;
+        background: rgb(7, 125, 239);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 20px;
+        transition: all .5s ease;
+    }
+
+    .list.open {
+        left: 0;
+    }
+
+    .menu-bar {
+        /* border: 2px solid black; */
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+    .fa-trash, .qty-txt {
+        margin-bottom: 20px;
+    }
+
+    .summary {
+        margin-top: 20px;
+    }
+
+    .virtualconsult {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
 /*800px*/
 @media only screen and (min-width: 800px) and (max-width: 802px) {
+
   .virtualconsult {
     display: none;
   }
@@ -419,10 +508,12 @@ form {
   body {
     overflow-x: hidden;
   }
+
 }
 
 /*414px*/
 @media only screen and (min-width: 414px) and (max-width: 420px) {
+
   .top-bar {
     margin-left: -10px;
     height: 2vh;
@@ -499,10 +590,12 @@ form {
   body {
     overflow-x: hidden;
   }
+
 }
 
 /*393 mobile width*/
 @media only screen and (min-width: 393px) and (max-width: 400px) {
+
   .top-bar {
     margin-left: -10px;
     height: 5vh;
@@ -569,10 +662,12 @@ form {
   body {
     overflow-x: hidden;
   }
+
 }
 
 /*390 mobile width*/
 @media only screen and (min-width: 390px) and (max-width: 392px) {
+
   .top-bar {
     margin-left: -10px;
     height: 5vh;
@@ -644,6 +739,7 @@ form {
   }
 
   /* .cart-item {
+
         border: 1px solid black;
     } */
 
@@ -657,9 +753,11 @@ form {
     margin-top: 20px;
   }
 
+
   .virtualconsult {
     display: none;
   }
+
 
   body {
     overflow-x: hidden;
@@ -668,6 +766,7 @@ form {
 
 /*360 mobile width*/
 @media only screen and (min-width: 360px) and (max-width: 365px) {
+
   .top-bar {
     margin-left: -10px;
     height: 5vh;
@@ -734,6 +833,7 @@ form {
   body {
     overflow-x: hidden;
   }
+
 }
 
 /*320px mobile width*/
