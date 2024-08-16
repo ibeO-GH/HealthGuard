@@ -1,138 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="../cssfolder/checkout.css">
-</head>
-<body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthGuard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../imagess/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../cssfolder/checkout.css" />
+  </head>
+  <body>
     <div class="top-bar">
-        <div class="logo">
-            <img src="../imagess/homepage/Frame 5.svg" alt="healthguard-logo">
-            <h5>HEALTHGUARD</h5>
+      <div class="logo">
+        <a href="../index.html"
+          ><img src="/logo/Frame 5.svg" alt="healthguard-logo"
+        /></a>
+        <h5>HEALTHGUARD</h5>
+      </div>
+
+
+      <form>
+        <div class="top-search-bar">
+          <div>
+            <button class="btn1" type="button">
+              <i class="fa-solid fa-magnifying-glass">.</i>
+            </button>
+          </div>
+
+          <div>
+            <input
+              type="text"
+              id="search-drugs"
+              name="search-drugs"
+              value=""
+              placeholder="Search for drugs"
+            />
+          </div>
         </div>
+      </form>
 
-        <form>
-            <div class="top-search-bar">
-                <div>
-                    <button class="btn1" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
+      <div class="virtualconsult">
+        <a href="">Virtual Consultations</a>
+      </div>
 
-                <div>
-                    <input type="text" id="search-drugs" name="search-drugs" value="" placeholder="Search for drugs">
-                </div>
-            </div>
-        </form>
-
-        <div class="virtualconsult">
-            <a href="">Virtual Consultations</a>
-        </div>
-
-
-        <div class="login-signup">
-            <button class="login-signup-btn"><i class="fa-solid fa-user user-login-font"></i> Login|Sign up</button>
-        </div>
+      <div class="login-signup">
+        <button class="login-signup-btn">
+          <i class="fa-solid fa-user user-login-font"></i> Login|Sign up
+        </button>
+      </div>
     </div>
 
     <nav class="navbar">
-        <ul class="list">
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">FAQs</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Find a Pharmacy</a></li>
-          <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-          <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-        </ul>
 
-        <div class="menu-bar" id="menu-icon">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+      <ul class="list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./faqs.html">FAQs</a></li>
+        <li><a href="../index.html/#contact">Contact</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="">Find a Pharmacy</a></li>
+        <li>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i>.</a>
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-user"></i>.</a>
+        </li>
+      </ul>
+
+
+      <div class="menu-bar" id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
 
     <div class="checkout-section">
-        <div class="cart-summary">
-            <div class="cart">
-                <div class="cart-header">
-                    <h3>Cart - 1 Items</h3>
-                </div>
-    
-                <div class="cart-item">
-                    <div class="cart-item-image"><img src="../imagess/checkout-img/pz-55-u-7-icngrs-2-z-10.png" alt=""></div>
-                    <div class="cart-item-name">
-                        <h3>EKOPINE PREFILLED INJECTION (4000 UNITS)</h3>
-                        <i class="fa-solid fa-trash"></i>
-                    </div>
-                    <div class="qty-btn">
-                        <div class="btns">
-                            <button>-</button>
-                            <h4>1</h4>
-                            <button>+</button>
-                        </div>
-    
-                        <div class="qty-txt">
-                            <h5>Quantity</h5>
-                            <h6>#89630</h6>
-                        </div>
-                    </div>
-                </div>
+
+      <div class="cart-summary">
+        <div class="cart">
+          <div class="cart-header">
+            <h3>Cart - 1 Items</h3>
+          </div>
+
+          <div class="cart-item">
+            <div class="cart-item-image">
+              <img src="/images/pz-55-u-7-icngrs-2-z-10.png" alt="" />
             </div>
-    
-            <div class="summary">
-                <h3>Summary</h3>
-                <div class="products-price">
-                    <h6>Products</h6>
-                    <h6 class="price">#89630</h6>
-                </div>
-                <div class="shipping-price">
-                    <h6>Shipping</h6>
-                    <h6 class="ship-price"><span>Flat Rate</span></h6>
-                </div>
-                <div class="total-price">
-                    <h6>Total amount</h6>
-                    <h6 class="total">#89630</h6>
-                </div>
-                <div class="btn-5">
-                    <button class="go-to-checkout-btn">Go to checkout</button>
-                </div>
+            <div class="cart-item-name">
+              <h3>EKOPINE PREFILLED INJECTION (4000 UNITS)</h3>
+              <i class="fa-solid fa-trash"></i>
+
             </div>
+            <div class="qty-btn">
+              <div class="btns">
+                <button>-</button>
+                <h4>1</h4>
+                <button>+</button>
+              </div>
+
+              <div class="qty-txt">
+                <h5>Quantity</h5>
+                <h6>#89630</h6>
+              </div>
+            </div>
+          </div>
         </div>
-    
-        <div class="continue-shopping-btn">
-            <div class="continue">
-                <button>Continue shopping</button>
-            </div>
+
+        <div class="summary">
+          <h3>Summary</h3>
+          <div class="products-price">
+            <h6>Products</h6>
+            <h6 class="price">#89630</h6>
+          </div>
+          <div class="shipping-price">
+            <h6>Shipping</h6>
+            <h6 class="shipping-price"><span>Flat Rate</span></h6>
+          </div>
+          <div class="total-price">
+            <h6>Total amount</h6>
+            <h6 class="total">#89630</h6>
+          </div>
+          <div class="btn-5">
+            <button class="go-to-checkout-btn">Go to checkout</button>
+          </div>
         </div>
+      </div>
+
+      <div class="continue-shopping-btn">
+        <div class="continue">
+          <button>Continue shopping</button>
+        </div>
+      </div>
     </div>
 
     <div class="checkout-box-ad">
-        <div class="ad-box">
-            <div class="box-header">Product Quality</div>
-            <div class="box-content">
-                <img src="../imagess/checkout-img/product-quality-rafiki0.svg" alt="">
-                <p>Safe and quality <br> medicine maximally <br> guaranteed</p>
-            </div>
+
+      <div class="ad-box">
+        <div class="box-header">Product Quality</div>
+        <div class="box-content">
+          <img src="images/product-quality-rafiki0.svg" alt="" />
+          <p>
+            Safe and quality <br />
+            medicine maximally <br />
+            guaranteed
+          </p>
         </div>
-        <div class="ad-box">
-            <div class="box-header">Instant Delivery</div>
-            <div class="box-content">
-                <img src="../imagess/checkout-img/coronavirus-delivery-preventions-rafiki0.svg" alt="">
-                <p>All deliveries are <br> done within <br> 24hours</p>
-            </div>
+      </div>
+      <div class="ad-box">
+        <div class="box-header">Instant Delivery</div>
+        <div class="box-content">
+          <img
+            src="/images/coronavirus-delivery-preventions-rafiki0.svg"
+            alt=""
+          />
+          <p>
+            All deliveries are <br />
+            done within <br />
+            24hours
+          </p>
         </div>
-        <div class="ad-box">
-            <div class="box-header">Nationwide Delivery</div>
-            <div class="box-content">
-                <img src="../imagess/checkout-img/international-transportation-and-delivery-logistics0.png" alt="">
-                <p>We deliver to <br> all states in <br> Nigeria</p>
-            </div>
+      </div>
+      <div class="ad-box">
+        <div class="box-header">Nationwide Delivery</div>
+        <div class="box-content">
+          <img
+            src="/images/international-transportation-and-delivery-logistics0.png"
+            alt=""
+          />
+          <p>
+            We deliver to <br />
+            all states in <br />
+            Nigeria
+          </p>
+
         </div>
+      </div>
     </div>
 
-    <script src="../scriptfolder/checkout.js"></script>
-</body>
+
+    <script src="checkout.js"></script>
+  </body>
 </html>
