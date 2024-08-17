@@ -437,542 +437,708 @@ form {
 
 /*800px*/
 @media only screen and (min-width: 800px) and (max-width: 802px) {
-
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
   .top-bar {
-    margin-left: -10px;
-    height: 5vh;
+      margin-left: -10px;
+      height: 5vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
 
   .logo img {
-    height: 4vh;
+      height: 4vh;
   }
-
+  
   .logo h5 {
-    font-size: 19px;
-    /* display: none; */
+      font-size: 19px;
+      /* display: none; */
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
 
   .login-signup-btn {
-    position: relative;
-    right: -30px;
-    /* margin-left: 4px; */
+      position: relative;
+      right: -30px;
+      /* margin-left: 4px; */
   }
-
+  
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
 
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%;
-    width: 414px;
-    line-height: 55px;
-    height: 460px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
+      position: absolute;
+      top: 44%;
+      left: -130%;
+      width: 414px;
+      line-height: 55px;
+      height: 460px;
+      background: rgb(7, 125, 239);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0px 20px;
+      transition: all .5s ease;
   }
 
   .list.open {
-    right: 0;
+      left: 0;
   }
 
   .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
   }
 
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
   body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
-
 }
 
 /*414px*/
 @media only screen and (min-width: 414px) and (max-width: 420px) {
-
   .top-bar {
-    margin-left: -10px;
-    height: 2vh;
+      margin-left: -10px;
+      height: 2vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
 
   .logo img {
-    height: 4vh;
+      height: 4vh;
   }
-
+  
   .logo h5 {
-    font-size: 14px;
-    display: none;
+      font-size: 14px;
+      display: none;
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
 
   .login-signup-btn {
-    width: 210px;
-    margin-left: 105px;
+      width: 210px;
+      margin-left: 105px;
   }
-
+  
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
-
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%;
-    width: 414px;
-    line-height: 35px;
-    height: 314px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
+      position: absolute;
+      top: 44%;
+      left: -130%;
+      width: 414px;
+      line-height: 35px;
+      height: 314px;
+      background: rgb(7, 125, 239);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0px 20px;
+      transition: all .5s ease;
   }
 
   .list.open {
-    right: 0;
+      left: 0;
   }
 
   .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
-    /* margin-left: 370px; */
-  }
-
-  .virtualconsult {
-    display: none;
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      /* margin-left: 370px; */
   }
 
   .checkout-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      margin-top: -80px;
+      margin-left: 144px;
+      width: 95%;
+  }
+
+  .cart {
+      border: 1px solid green;
+      width: 97%;
+  }
+
+  .cart-item-name {
+      text-align: center;
+      /* border: 1px solid black; */
+      padding: 20px 0px;
+      margin-left: 37px;
+  }
+
+  .qty-btn {
+      margin-top: 0px;
+      margin-left: 50px;
+  }
+
+  .qty-txt {
+      /* border: 1px solid black; */
+      margin: 20px 0px;
+      /* margin-left: 20px; */
   }
 
   .summary {
-    margin-left: -50px;
+      width: 390px;
+      padding: 10px 35px;
+      margin-top: 15%;
+      position: relative;
+      left: 68px;
+  }
+
+  .products-price, .shipping-price, .total-price {
+      width: 230px;
+      /* border: 1px solid black; */
+  }
+
+  .price, .total, .ship-price {
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100px;
+      text-align: center;
+  }
+
+  .continue-shopping-btn {
+      /* border: 1px solid black; */
+      width: 300px;
+      /* text-align: center; */
+      margin-left: 150px;
+  }
+
+  .continue {
+      /* border: 1px solid black; */
+      width: 107%;
+      margin-left: -65px;
+  }
+
+  .virtualconsult {
+      display: none;
+  }
+
+  .checkout-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .summary {
+      margin-left: -50px;
   }
 
   body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
-
 }
 
 /*393 mobile width*/
 @media only screen and (min-width: 393px) and (max-width: 400px) {
-
   .top-bar {
-    margin-left: -10px;
-    height: 5vh;
+      margin-left: -10px;
+      height: 5vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
-
+ 
   .logo img {
-    height: 4vh;
-    margin-left: -20px;
+      height: 4vh;
+      margin-left: -20px;
   }
-
+  
   .logo h5 {
-    font-size: 14px;
-    display: none;
+      font-size: 14px;
+      display: none;
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
-
+  
   .login-signup-btn {
-    width: 210px;
-    margin-left: 100px;
+      width: 210px;
+      margin-left: 100px;
   }
 
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
-
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%;
-    width: 393px;
-    line-height: 35px;
-    height: 314px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
-  }
+          position: absolute;
+          top: 44%;
+          left: -130%;
+          width: 393px;
+          line-height: 35px;
+          height: 314px;
+          background: rgb(7, 125, 239);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 0px 20px;
+          transition: all .5s ease;
+}    
   .list.open {
-    right: 0;
+      left: 0;
+  }    
+  
+  .menu-bar {
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      /* margin-left: 370px; */
   }
 
-  .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
-    /* margin-left: 370px; */
+  .checkout-section {
+      margin-top: -60px;
+      margin-left: 10px;
+      width: 100%;
+  }
+
+  .cart {
+      border: 1px solid black;
+      width: 340px;
+      margin-left: -110px;
+  }
+
+  .cart-item-name {
+      text-align: center;
+      /* border: 1px solid black; */
+      padding: 20px 0px;
+      margin-left: 37px;
+  }
+
+  .qty-btn {
+      margin-top: 0px;
+      margin-left: 50px;
+  }
+
+  .qty-txt {
+      /* border: 1px solid black; */
+      margin: 20px 0px;
+      /* margin-left: 20px; */
+  }
+
+  .summary {
+      width: 390px;
+      padding: 10px 35px;
+      margin-top: 15%;
+      position: relative;
+      margin-left: -90px;
+      /* left: 68px; */
+  }
+
+  .products-price, .shipping-price, .total-price {
+      width: 230px;
+      /* border: 1px solid black; */
+  }
+
+  .price, .total, .ship-price {
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100px;
+      text-align: center;
+  }
+
+  .continue-shopping-btn {
+      /* border: 1px solid black; */
+      width: 300px;
+      /* text-align: center; */
+      margin-left: 30px;
+  }
+
+  .continue {
+      /* border: 1px solid black; */
+      width: 107%;
+      margin-left: -65px;
   }
 
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
   body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
-
 }
 
 /*390 mobile width*/
 @media only screen and (min-width: 390px) and (max-width: 392px) {
-
   .top-bar {
-    margin-left: -10px;
-    height: 5vh;
+      margin-left: -10px;
+      height: 5vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
-
+ 
   .logo img {
-    height: 4vh;
-    position: relative;
-    left: -20px;
+      height: 4vh;
+      position: relative;
+      left: -20px;
   }
-
+  
   .logo h5 {
-    font-size: 14px;
-    display: none;
+      font-size: 14px;
+      display: none;
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
-
+  
   .login-signup-btn {
-    width: 210px;
-    margin-left: 86px;
+      width: 210px;
+      margin-left: 86px;
   }
 
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
-
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%;
-    width: 390px;
-    line-height: 35px;
-    height: 314px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
-  }
+          position: absolute;
+          top: 44%;
+          left: -130%;
+          width: 390px;
+          line-height: 35px;
+          height: 314px;
+          background: rgb(7, 125, 239);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 0px 20px;
+          transition: all .5s ease;
+}    
   .list.open {
-    right: 0;
-  }
-
+      left: 0;
+  }    
+  
   .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
-    /* margin-left: 370px; */
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      /* margin-left: 370px; */
   }
 
   .cart-summary {
-    margin-left: -100px;
-    /* width: 30px; */
+      margin-left: -100px;
+      /* width: 30px; */
   }
 
   .cart {
-    width: 340px;
-    text-align: center;
+      width: 340px;
+      text-align: center;
   }
 
   /* .cart-item {
-
-        border: 1px solid black;
-    } */
+      border: 1px solid black;
+  } */
 
   .qty-btn {
-    margin-left: 30px;
-    margin-bottom: 20px;
+      margin-left: 30px;
+      margin-bottom: 20px;
   }
 
   .summary {
-    margin-left: 30px;
-    margin-top: 20px;
+      margin-left: 30px;
+      margin-top: 20px;
   }
 
+  .continue-shopping-btn {
+      /* border: 1px solid black; */
+      width: 300px;
+      /* text-align: center; */
+      margin-left: 30px;
+  }
+
+  .continue {
+      /* border: 1px solid black; */
+      width: 107%;
+      margin-left: -55px;
+  }
 
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
-
   body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
 }
 
 /*360 mobile width*/
 @media only screen and (min-width: 360px) and (max-width: 365px) {
-
   .top-bar {
-    margin-left: -10px;
-    height: 5vh;
+      margin-left: -10px;
+      height: 5vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
-
+ 
   .logo img {
-    height: 4vh;
-    margin-left: -25px;
+      height: 4vh;
+      margin-left: -25px;
   }
-
+  
   .logo h5 {
-    font-size: 14px;
-    display: none;
+      font-size: 14px;
+      display: none;
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
-
+  
   .login-signup-btn {
-    width: 210px;
-    margin-left: 80px;
+      width: 210px;
+      margin-left: 80px;
   }
 
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
-
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%; /*0*/
-    width: 360px;
-    line-height: 35px;
-    height: 314px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
-  }
+          position: absolute;
+          top: 44%;
+          left: -130%; /*0*/
+          width: 360px;
+          line-height: 35px;
+          height: 314px;
+          background: rgb(7, 125, 239);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 0px 20px;
+          transition: all .5s ease;
+}
 
   .list.open {
-    right: 0;
+      left: 0;
+  }    
+  
+  .menu-bar {
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
   }
 
-  .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
+  .checkout-section {
+      margin-top: -70px;
+      /* margin-left: 144px; */
+      width: 100%;
+  }
+
+  .cart {
+      border: 1px solid black;
+      width: 340px;
+      margin-left: -110px;
+  }
+
+  .cart-item-name {
+      text-align: center;
+      /* border: 1px solid black; */
+      padding: 20px 0px;
+      margin-left: 37px;
+  }
+
+  .qty-btn {
+      margin-top: 0px;
+      margin-left: 50px;
+  }
+
+  .qty-txt {
+      /* border: 1px solid black; */
+      margin: 20px 0px;
+      /* margin-left: 20px; */
+  }
+
+  .summary {
+      width: 390px;
+      padding: 10px 35px;
+      margin-top: 15%;
+      position: relative;
+      margin-left: -90px;
+      /* left: 68px; */
+  }
+
+  .products-price, .shipping-price, .total-price {
+      width: 230px;
+      /* border: 1px solid black; */
+  }
+
+  .price, .total, .ship-price {
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100px;
+      text-align: center;
+  }
+
+  .continue-shopping-btn {
+      /* border: 1px solid black; */
+      width: 300px;
+      /* text-align: center; */
+      margin-left: 30px;
+  }
+
+  .continue {
+      /* border: 1px solid black; */
+      width: 107%;
+      margin-left: -65px;
   }
 
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
   body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
-
 }
 
 /*320px mobile width*/
 @media only screen and (min-width: 320px) and (max-width: 325px) {
   .top-bar {
-    margin-left: -10px;
-    height: 10vh;
+      margin-left: -10px;
+      height: 10vh;
   }
-
+  
   form {
-    display: none;
+      display: none;
   }
 
+  .logo {
+      margin-left: -12px;
+  }
+ 
   .logo img {
-    height: 6vh;
-    margin-left: -14px;
+      height: 6vh;
+      margin-left: -14px;
   }
-
+  
   .logo h5 {
-    font-size: 14px;
-    display: none;
+      font-size: 14px;
+      display: none;
   }
 
   .fa-user {
-    font-size: 13px;
+      font-size: 13px;
   }
-
+  
   .login-signup-btn {
-    width: 205px;
-    margin-left: 32px;
+      width: 205px;
+      margin-left: 43px;
   }
-
+  
   .navbar {
-    padding: 18px 0px;
+      padding: 18px 0px;
   }
-
+  
   .list {
-    position: absolute;
-    top: 44%;
-    right: -130%; /*0*/
-    width: 320px;
-    line-height: 35px;
-    height: 314px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
+          position: absolute;
+          top: 44%;
+          left: -130%; /*0*/
+          width: 320px;
+          line-height: 35px;
+          height: 314px;
+          background: rgb(7, 125, 239);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 0px 20px;
+          transition: all .5s ease;
   }
+    
   .list.open {
-    right: 0;
+      left: 0;
+  }    
+  
+  .menu-bar {
+      /* border: 2px solid black; */
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 10px;
   }
 
-  .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
+  .checkout-section {
+      margin-top: -80px;
+      margin-left: -140px;
+      width: 100%;
+  }
+
+  .cart-item-name {
+      text-align: center;
+  }
+
+  .summary {
+      width: 390px;
+      padding: 10px 35px;
+      margin-top: 15%;
+      margin-left: 20%;
+  }
+  .products-price, .shipping-price, .total-price {
+      width: 230px;
+      /* border: 1px solid black; */
+  }
+
+  .price, .total, .ship-price {
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100px;
+      text-align: center;
+  }
+
+  .continue-shopping-btn {
+      /* border: 1px solid black; */
+      width: 300px;
+      /* text-align: center; */
+      margin-left: 150px;
+  }
+
+  .continue {
+      /* border: 1px solid black; */
+      width: 107%;
+      margin-left: -65px;
   }
 
   .virtualconsult {
-    display: none;
+      display: none;
   }
 
   body {
-    overflow-x: hidden;
-  }
-}
-
-@media only screen and (min-width: 820px) and (max-width: 1105px) {
-  .top-bar {
-    height: 7vh;
-  }
-
-  .logo img {
-    margin-left: -20px;
-  }
-
-  form {
-    /* display: none; */
-    width: 250px;
-    margin-left: 30px;
-  }
-
-  .fa-user {
-    font-size: 17px;
-  }
-
-  .top-search-bar {
-    display: flex;
-    padding: 5px;
-  }
-
-  .login-signup-btn {
-    position: relative;
-    left: 30px;
-    /* margin-left: 50px; */
-    /* width: 70px; */
-    font-weight: 5px;
-  }
-
-  .navbar {
-    padding: 18px 0px;
-  }
-
-  .list {
-    position: absolute;
-    top: 44%;
-    right: -130%;
-    width: 414px;
-    line-height: 55px;
-    height: 460px;
-    background: rgb(7, 125, 239);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 20px;
-    transition: all 0.5s ease;
-  }
-
-  .list.open {
-    right: 0;
-  }
-
-  .menu-bar {
-    /* border: 2px solid black; */
-    display: block;
-    position: absolute;
-    top: 7px;
-    right: 10px;
-  }
-
-  .virtualconsult {
-    display: none;
-  }
-
-  body {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
 }
