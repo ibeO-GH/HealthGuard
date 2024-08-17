@@ -175,14 +175,18 @@ a.login-btn:hover {
 /* Stats Section*/
 .stats {
   width: 100%;
-  height: auto;
+  height: 20vh;
   background: #077def;
+  padding: 0 9rem;
+}
+.stats-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   color: #fff;
-  padding: 2rem 9rem;
+  width: 100%;
+  height: 100%;
 }
 
 .stats1,
@@ -190,11 +194,11 @@ a.login-btn:hover {
 .stats3,
 .stats4 {
   width: 25rem;
-  height: 6.5rem;
+  height: auto;
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 /* Services Section*/
 .services {
@@ -604,16 +608,20 @@ a.login-btn:hover {
     height: auto;
   }
   .stats {
-    padding: 1rem 6rem;
+    height: auto;
+  }
+  .stats-container {
+    flex-wrap: wrap;
+    padding: 0 5rem;
   }
   .stats1,
   .stats2,
   .stats3,
   .stats4 {
-    width: 20rem;
-    height: 5rem;
+    width: 25rem;
+    height: 10rem;
     font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+    padding: 2.5rem 0 0;
   }
   .services-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -778,16 +786,21 @@ a.login-btn:hover {
     height: auto;
   }
   .stats {
-    padding: 0.8rem 4rem;
+    height: auto;
+  }
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
   }
   .stats1,
   .stats2,
   .stats3,
   .stats4 {
-    width: 15rem;
-    height: 4rem;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    height: 10rem;
+    font-size: 1.6rem;
+    padding: 2.5rem 0 0;
   }
   .services-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

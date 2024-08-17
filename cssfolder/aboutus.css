@@ -581,7 +581,7 @@ a.login-btn:hover {
   .aboutus-text {
     width: 40rem;
     height: auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .mission-content {
     width: 70%;
@@ -597,7 +597,7 @@ a.login-btn:hover {
   .ourvision-text {
     width: 40rem;
     height: auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .contact-content {
     justify-content: space-between;
