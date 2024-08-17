@@ -165,7 +165,7 @@ a.login-btn:hover {
 
 .aboutus-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   /*flex-wrap: wrap;*/
   padding: 0 9rem;
@@ -187,7 +187,6 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 2rem;
 }
 
 .aboutus-text h2 {
@@ -250,7 +249,7 @@ a.login-btn:hover {
 
 .ourvision-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   /*flex-wrap: wrap;*/
   padding: 0 9rem;
@@ -272,7 +271,6 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 2rem;
 }
 
 .ourvision-text h2 {
@@ -326,7 +324,7 @@ a.login-btn:hover {
 
 .contact-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   /*flex-wrap: wrap;*/
   padding: 0 9rem;
@@ -573,6 +571,7 @@ a.login-btn:hover {
     font-size: 2rem;
   }
   .aboutus-content {
+    justify-content: space-between;
     padding: 0 7rem;
   }
   .aboutus-image {
@@ -582,11 +581,13 @@ a.login-btn:hover {
   .aboutus-text {
     width: 40rem;
     height: auto;
+    padding: 0 2rem;
   }
   .mission-content {
     width: 70%;
   }
   .ourvision-content {
+    justify-content: space-between;
     padding: 0 7rem;
   }
   .ourvision-image {
@@ -596,8 +597,10 @@ a.login-btn:hover {
   .ourvision-text {
     width: 40rem;
     height: auto;
+    padding: 0 2rem;
   }
   .contact-content {
+    justify-content: space-between;
     padding: 0 7rem;
   }
   .call-box,
