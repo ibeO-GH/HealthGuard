@@ -206,8 +206,18 @@ a.login-btn:hover {
   height: auto;
 }
 
+.services-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 9rem;
+}
+
 .services-heading {
-  margin: 3rem auto;
+  margin: 3rem 0;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
@@ -216,11 +226,8 @@ a.login-btn:hover {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  justify-items: center;
-  align-items: center;
-  grid-gap: 2rem;
-  padding: 0 9rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 4rem;
 }
 
 .image-container img {
@@ -229,6 +236,7 @@ a.login-btn:hover {
 
 .image-container {
   width: 50rem;
+  height: auto;
 }
 
 .service-type {
@@ -263,28 +271,40 @@ a.login-btn:hover {
 .relevance {
   width: 100%;
   height: auto;
+  padding-top: 3rem;
+}
+
+.relevance-container {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 5rem;
 }
 
 .relevance-heading {
-  margin: 3rem auto;
+  margin-bottom: 1rem;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
   text-transform: capitalize;
 }
 
-.what-we-do {
+.what-we-do-list {
   list-style-type: disc;
-  margin: 3rem 15rem;
+  margin: 1rem 0;
 }
 
-.what-we-do li {
-  padding: 1.5rem 1rem;
+.what-we-do-list li {
+  padding: 1.5rem 0;
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-.what-we-do li::marker {
+.what-we-do-list li::marker {
   color: #077def;
 }
 /* Reviews Section*/
@@ -623,12 +643,11 @@ a.login-btn:hover {
     font-size: 1.8rem;
     padding: 2.5rem 0 0;
   }
-  .services-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .services-container {
     padding: 0 6rem;
   }
   .image-container {
-    width: 32.5rem;
+    width: 32rem;
   }
   .service-type {
     font-size: 2rem;
@@ -638,12 +657,8 @@ a.login-btn:hover {
     font-size: 1.4rem;
     padding: 0.8rem;
   }
-  .what-we-do {
-    margin: 2rem 12rem;
-  }
-  .what-we-do li {
-    padding: 1rem 0.8rem;
-    font-size: 1.5rem;
+  .relevance-container {
+    width: 100%;
   }
   .review1,
   .review2 {
@@ -802,12 +817,17 @@ a.login-btn:hover {
     font-size: 1.6rem;
     padding: 2.5rem 0 0;
   }
+  .services-container {
+    padding: 0 2rem;
+  }
+  .services-heading {
+    font-size: 2.3rem;
+  }
   .services-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 0 4rem;
+    grid-template-columns: repeat(1, 1fr);
   }
   .image-container {
-    width: 30rem;
+    width: 100%;
   }
   .service-type {
     font-size: 1.8rem;
@@ -817,12 +837,11 @@ a.login-btn:hover {
     font-size: 1.2rem;
     padding: 0.6rem;
   }
-  .what-we-do {
-    margin: 1.5rem 10rem;
+  .relevance-container {
+    width: 100%;
   }
-  .what-we-do li {
-    padding: 0.8rem 0.6rem;
-    font-size: 1.3rem;
+  .relevance-heading {
+    font-size: 2.2rem;
   }
   .dreviews {
     padding: 0;

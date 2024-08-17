@@ -159,7 +159,6 @@ a.login-btn:hover {
 .aboutus-section {
   width: 100%;
   height: auto;
-  margin: 2rem 0;
   padding-top: 5rem;
 }
 
@@ -187,6 +186,7 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .aboutus-text h2 {
@@ -206,8 +206,7 @@ a.login-btn:hover {
 .ourmission {
   width: 100%;
   height: auto;
-  margin: 2rem 0;
-  display: flex;
+  padding-top: 5rem;
 }
 
 .mission-content {
@@ -215,8 +214,10 @@ a.login-btn:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 3rem auto;
+  margin: 0 auto;
   width: 60%;
+  height: auto;
+  padding: 0 2rem;
 }
 
 .mission-content h2 {
@@ -243,7 +244,6 @@ a.login-btn:hover {
 .ourvision-section {
   width: 100%;
   height: auto;
-  margin: 2rem 0;
   padding-top: 5rem;
 }
 
@@ -271,6 +271,7 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .ourvision-text h2 {
@@ -290,10 +291,11 @@ a.login-btn:hover {
 .contactus-section {
   width: 100%;
   height: auto;
+  padding-top: 5rem;
 }
 
 .contactus-heading {
-  margin: 3.5rem auto;
+  margin: 0 auto;
   text-align: center;
 }
 
