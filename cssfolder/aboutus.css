@@ -165,9 +165,9 @@ a.login-btn:hover {
 
 .aboutus-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   padding: 0 9rem;
 }
 
@@ -187,6 +187,7 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .aboutus-text h2 {
@@ -249,9 +250,9 @@ a.login-btn:hover {
 
 .ourvision-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   padding: 0 9rem;
 }
 
@@ -271,6 +272,7 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .ourvision-text h2 {
@@ -324,9 +326,9 @@ a.login-btn:hover {
 
 .contact-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   padding: 0 9rem;
 }
 
@@ -571,7 +573,7 @@ a.login-btn:hover {
     font-size: 2rem;
   }
   .aboutus-content {
-    padding: 0 5rem;
+    padding: 0 7rem;
   }
   .aboutus-image {
     width: 40rem;
@@ -585,7 +587,7 @@ a.login-btn:hover {
     width: 70%;
   }
   .ourvision-content {
-    padding: 0 5rem;
+    padding: 0 7rem;
   }
   .ourvision-image {
     width: 40rem;
@@ -596,7 +598,7 @@ a.login-btn:hover {
     height: auto;
   }
   .contact-content {
-    padding: 0 5rem;
+    padding: 0 7rem;
   }
   .call-box,
   .chat-box {
@@ -727,6 +729,9 @@ a.login-btn:hover {
   .contact-content {
     flex-direction: column;
     align-items: center;
+    padding: 0 2rem;
+  }
+  .contactus-heading p {
     padding: 0 2rem;
   }
   .call-box,
