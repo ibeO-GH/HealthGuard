@@ -313,8 +313,18 @@ a.login-btn:hover {
   height: auto;
 }
 
+.reviews-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 9rem;
+}
+
 .review-heading {
-  margin: 3.5rem auto;
+  margin: 3rem 0;
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
@@ -325,8 +335,8 @@ a.login-btn:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0 9rem;
+  /*flex-wrap: wrap;*/
+  height: auto;
 }
 
 .review1,
@@ -334,25 +344,24 @@ a.login-btn:hover {
   width: 50rem;
   height: 40rem;
   background: #fff;
-  margin-bottom: 3rem;
+  margin: 0 2rem 2rem;
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+  padding: 1rem 4rem;
 }
 
 .reviews-image {
   display: block;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 .review-h3text {
-  margin: 2rem 4rem;
-  width: 40rem;
+  margin: 2rem 0;
   font-size: 2.5rem;
   font-weight: 800;
 }
 
 .review-ptext {
-  margin: 2rem 4rem;
-  width: 40rem;
+  margin: 2rem 0;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -360,12 +369,21 @@ a.login-btn:hover {
 .professionals {
   width: 100%;
   height: auto;
-  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+.profession-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 9rem;
 }
 
 .prof-heading {
-  margin: 4rem auto;
-  text-align: center;
+  margin: 3rem 0;
   font-size: 2rem;
   font-weight: 800;
   text-transform: capitalize;
@@ -375,8 +393,7 @@ a.login-btn:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0 9rem;
+  /*flex-wrap: wrap;*/
 }
 
 .prof-image img {
@@ -396,6 +413,7 @@ a.login-btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem 1.5rem;
 }
 
 .prof-text p {
@@ -660,29 +678,29 @@ a.login-btn:hover {
   .relevance-container {
     width: 100%;
   }
+  .reviews-container {
+    padding: 0 6rem;
+  }
   .review1,
   .review2 {
-    width: 40rem;
-    height: 35rem;
-    margin-bottom: 2rem;
+    width: 32rem;
+    height: 45rem;
   }
   .review-h3text {
-    margin: 1.5rem 3rem;
-    width: 35rem;
     font-size: 2.2rem;
   }
   .review-ptext {
-    margin: 1.5rem 3rem;
-    width: 35rem;
     font-size: 1.8rem;
   }
+  .profession-container {
+    padding: 0 6rem;
+  }
   .prof-image {
-    width: 40rem;
+    width: 32rem;
     height: auto;
-    margin-bottom: 1.5rem;
   }
   .prof-text {
-    width: 40rem;
+    width: 32rem;
     height: auto;
   }
   .prof-text p {
@@ -820,7 +838,7 @@ a.login-btn:hover {
   .services-container {
     padding: 0 2rem;
   }
-  .services-heading {
+  .services-heading h2 {
     font-size: 2.3rem;
   }
   .services-grid {
@@ -840,42 +858,48 @@ a.login-btn:hover {
   .relevance-container {
     width: 100%;
   }
-  .relevance-heading {
+  .relevance-heading h2 {
+    font-size: 2.2rem;
+  }
+  .reviews-container {
+    padding: 0 2rem;
+  }
+  .review-heading h2 {
     font-size: 2.2rem;
   }
   .dreviews {
-    padding: 0;
+    flex-direction: column;
+    align-items: center;
   }
   .review1,
   .review2 {
-    width: 30rem;
-    height: 32rem;
-    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 35rem;
   }
   .review-h3text {
-    margin: 1rem 2rem;
-    width: 30rem;
     font-size: 1.8rem;
-    padding: 0 1rem;
   }
   .review-ptext {
-    margin: 1rem auto;
-    width: 30rem;
     font-size: 1.4rem;
-    padding: 0 3rem;
+  }
+  .profession-container {
+    padding: 0 2rem;
+  }
+  .prof-heading h2 {
+    font-size: 2.2rem;
+  }
+  .profession-section {
+    flex-direction: column;
+    align-items: center;
   }
   .prof-image {
-    width: 30rem;
+    width: 100%;
   }
   .prof-text {
-    width: 30rem;
+    width: 100%;
   }
   .prof-text p {
     font-size: 1.5rem;
-  }
-  .review-heading,
-  .prof-heading {
-    font-size: 1.8rem;
   }
   .page-footer {
     padding: 1.5rem 0;
