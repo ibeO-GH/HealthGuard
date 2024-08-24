@@ -858,7 +858,7 @@ a.login-btn:hover {
   .relevance-container {
     width: 100%;
   }
-  .relevance-heading h2 {
+  .relevance-heading {
     font-size: 2.2rem;
   }
   .reviews-container {
