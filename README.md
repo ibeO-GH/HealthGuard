@@ -1,14 +1,14 @@
-# Shopping Cart Project
+# HealthGuard website
 
-## Shopping Cart Project page
+## HealthGuard phamarceutical website
 
-This page is a Shopping Cart Project page where shoppers can add and remove items to their cart, and also includes a restriction to the total number of items that the cart can hold. There is a free delivery eligibility depending on the total price of items
+This site is a phamarceutical market place website where users can buy drugs online, book for consultation with a medical professional, set medication reminders, etc.
 
 \*Created the HTML page inserting the required elements for the desired interface
 
 \*Created the CSS with respect to the page styling
 
-\*Created the JavaScript for adding and deleting items, and free delivery eligibility functionality
+\*Created the JavaScript for site functionality
 
 \*Implemented responsiveness for tablet and mobile screens
 
