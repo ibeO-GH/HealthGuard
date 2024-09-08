@@ -12,6 +12,8 @@ This site is a phamarceutical market place website where users can buy drugs onl
 
 \*Implemented responsiveness for tablet and mobile screens
 
+## vercel Pages - https://health-guard-rho.vercel.app/
+
 ## Screenshot of how it looks
 
 <img src="/screenshots/screenshot1.png" alt="image" />
