@@ -1,3 +1,4 @@
+// Js code
 const menuIcon = document.querySelector(".menu-icon");
 const navMenu = document.querySelector(".nav-menu");
 
