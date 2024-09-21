@@ -195,7 +195,7 @@ form {
   }
 
   .logo h5 {
-    font-size: 11px;
+    font-size: 1rem;
     margin-left: 2px;
   }
 
@@ -206,7 +206,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%; /*0*/
     width: 420px;
     line-height: 40px;
     height: 210px;
@@ -219,7 +219,7 @@ form {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -229,7 +229,7 @@ form {
     /* top: 4px; */
     right: 49px;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .order-history-hero::before {
@@ -266,7 +266,7 @@ form {
 
   .order-tabs {
     width: 85%;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   .order-tabs ul li {
@@ -275,7 +275,7 @@ form {
 
   .order-tab-message {
     font-size: 1.8rem;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
   body {
@@ -308,7 +308,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%; /*0*/
     width: 420px;
     line-height: 40px;
     height: 210px;
@@ -321,7 +321,7 @@ form {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -390,7 +390,7 @@ form {
 /*width 414px - iphone11*/
 @media only screen and (min-width: 414px) and (max-width: 420px) {
   .logo {
-    margin-left: -240px;
+    margin-left: -185px;
   }
 
   .logo img {
@@ -398,7 +398,7 @@ form {
   }
 
   .logo h5 {
-    font-size: 11px;
+    font-size: 17px;
     margin-left: 2px;
   }
 
@@ -409,7 +409,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%;
     width: 420px;
     line-height: 40px;
     height: 210px;
@@ -419,10 +419,10 @@ form {
     flex-direction: column;
     padding: 0px 20px;
     transition: all 0.5s ease;
-  }
+}
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -430,8 +430,9 @@ form {
     display: block;
     position: absolute;
     /* top: 4px; */
-    right: 19px;
+    right: 21px;
     color: white;
+    font-size: 23px;
   }
 
   .order-history-hero::before {
@@ -460,7 +461,7 @@ form {
     font-size: 14px;
     margin-left: -15px;
     /* border: 1px solid black; */
-    width: 138%;
+    width: 139%;
   }
 
   .btn1 {
@@ -503,8 +504,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%;
-    /*0*/
+    left: -130%;
     width: 320px;
     line-height: 35px;
     height: 200px;
@@ -517,7 +517,7 @@ form {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -593,8 +593,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%;
-    /*0*/
+    left: -130%;
     width: 320px;
     line-height: 35px;
     height: 200px;
@@ -607,7 +606,7 @@ form {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -668,7 +667,7 @@ form {
 /*Galaxy S21*/
 @media only screen and (min-width: 360px) and (max-width: 365px) {
   .logo {
-    margin-left: -190px;
+    margin-left: -140px;
   }
 
   .logo img {
@@ -676,7 +675,7 @@ form {
   }
 
   .logo h5 {
-    font-size: 11px;
+    font-size: 17px;
     margin-left: 2px;
   }
 
@@ -687,7 +686,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%;
     width: 320px;
     line-height: 35px;
     height: 200px;
@@ -700,7 +699,7 @@ form {
   }
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -710,6 +709,7 @@ form {
     /* top: 4px; */
     right: 17px;
     color: white;
+    font-size: 19px;
   }
 
   .order-history-hero::before {
@@ -758,9 +758,10 @@ form {
   }
 }
 
+/*320px Iphone 5*/
 @media only screen and (min-width: 320px) and (max-width: 325px) {
   .logo {
-    margin-left: -170px;
+    margin-left: -130px;
   }
 
   .logo img {
@@ -770,6 +771,7 @@ form {
   .logo h5 {
     font-size: 11px;
     margin-left: 2px;
+    font-size: 16px;
   }
 
   .navbar {
@@ -779,7 +781,7 @@ form {
   .list {
     position: absolute;
     top: 44%;
-    right: -130%; /*0*/
+    left: -130%;
     width: 320px;
     line-height: 35px;
     height: 200px;
@@ -789,10 +791,10 @@ form {
     flex-direction: column;
     padding: 0px 20px;
     transition: all 0.5s ease;
-  }
+}
 
   .list.open {
-    right: 0;
+    left: 0;
   }
 
   .menu-bar {
@@ -802,6 +804,7 @@ form {
     /* top: 4px; */
     right: 17px;
     color: white;
+    font-size: 20px;
   }
 
   .order-history-content {
@@ -813,6 +816,10 @@ form {
     height: 85vh;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .content-box h1 {
+    font-size: 30px;
   }
 
   form {
@@ -838,6 +845,7 @@ form {
 
   .order-tabs ul li {
     padding: 0px;
+    font-size: 16px;
   }
 
   body {
